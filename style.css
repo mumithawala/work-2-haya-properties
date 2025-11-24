@@ -1,0 +1,116 @@
+@import url("assets/section-css/reset.css");
+@import url("assets/section-css/header.css");
+@import url("assets/section-css/hero.css");
+@import url("assets/section-css/text-move.css");
+@import url("assets/section-css/features.css");
+@import url("assets/section-css/about.css");
+@import url("assets/section-css/latest-project.css");
+@import url("assets/section-css/feature-highlight.css");
+@import url("assets/section-css/partner.css");
+@import url("assets/section-css/video.css");
+@import url("assets/section-css/portfolio.css");
+@import url("assets/section-css/service.css");
+@import url("assets/section-css/team.css");
+@import url("assets/section-css/testimonial.css");
+@import url("assets/section-css/pricing.css");
+@import url("assets/section-css/blog.css");
+@import url("assets/section-css/call-action.css");
+@import url("assets/section-css/contact.css");
+@import url("assets/section-css/faq.css");
+@import url("assets/section-css/404.css");
+@import url("assets/section-css/footer.css");
+@import url("assets/section-css/sidebar-popup.css");
+@import url("assets/section-css/page-title.css");
+
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 10, 10, 0.382);
+  z-index: 2;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 3;
+  color: #fff;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.hero-content h1 {
+ 
+  color: #cda448 !important;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  color: #acacac;
+}
+
+.hero-btn {
+  background: #f39c12;
+  color: #fff;
+  padding: 14px 32px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.hero-btn:hover {
+  background: #e67e22;
+}
+
+
+.swiper-new {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide-new {
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide-new img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+

@@ -1,0 +1,106 @@
+/*============================================================================================
+    Feature Highlight Area
+==============================================================================================*/
+
+.tc-feature-highlight {
+  position: relative;
+  background-color: #f8f8f8;
+}
+
+.tc-feature-highlight .container {
+  position: relative;
+  z-index: 2;
+}
+
+.tc-feature-highlight__head .tc-sec-head__title {
+  max-width: 760px;
+  margin: 0 auto 16px auto;
+}
+
+.tc-feature-highlight__head .tc-sec-head__text {
+  max-width: 720px;
+  margin: 0 auto;
+  color: #4b4b4b;
+}
+
+.tc-feature-highlight__grid {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.tc-feature-highlight__card {
+  position: relative;
+  padding: 32px 28px;
+  border-radius: 24px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.08);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.tc-feature-highlight__card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 40px 120px rgba(0, 0, 0, 0.12);
+}
+
+.tc-feature-highlight__icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: #cda4481a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+}
+
+.tc-feature-highlight__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: rgba(205, 164, 72, 0.08);
+  color: #cda448;
+}
+
+.tc-feature-highlight__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #0f172a;
+}
+
+.tc-feature-highlight__text {
+  margin: 0;
+  color: #5f6472;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+@media (max-width: 991px) {
+  .tc-feature-highlight__grid {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .tc-feature-highlight {
+    padding: 80px 0;
+  }
+
+  .tc-feature-highlight__card {
+    padding: 28px 24px;
+  }
+}
+
