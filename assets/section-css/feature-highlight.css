@@ -53,7 +53,7 @@
   width: 56px;
   height: 56px;
   border-radius: 16px;
-  background: #cda4481a;
+  background: #e7c9541a;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,7 +71,7 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   background: rgba(205, 164, 72, 0.08);
-  color: #cda448;
+  color: #e7c954;
 }
 
 .tc-feature-highlight__title {

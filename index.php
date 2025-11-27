@@ -14,25 +14,25 @@
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.svg" />
 
     <!-- Site Title -->
-    <title>Hulo - Creative Digital Agency HTML Template</title>
+    <title>Haya Properties</title>
 
     <meta name="description"
-        content="Boost your brand with our cutting-edge digital solutions. We create stunning websites, engaging content, and innovative marketing strategies to elevate your business." />
+        content="Haya Properties is a growing real estate development company based in Ahmedabad, established in 2020 with a commitment to building modern, sustainable, and value-driven properties. We specialize in both residential and commercial developments, focusing on architectural excellence, premium materials, and long-term quality." />
     <meta name="keywords"
-        content="creative digital agency, web design, branding, digital marketing, SEO, social media marketing, UI/UX design, content creation, business growth" />
+        content="Haya Properties, real estate, Ahmedabad, residential, commercial, development, architecture, premium materials, long-term quality" />
 
     <!-- Meta OG Tags -->
-    <meta property="og:site_name" content="Hulo - Creative Digital Agency" />
-    <meta property="og:title" content="Hulo - Creative Digital Agency HTML Template" />
+    <meta property="og:site_name" content="Haya Properties" />
+    <meta property="og:title" content="Haya Properties" />
     <meta property="og:description"
-        content="We help brands thrive in the digital world with expert web design, marketing, and branding services. Elevate your online presence with Hulo." />
+        content="Haya Properties is a growing real estate development company based in Ahmedabad, established in 2020 with a commitment to building modern, sustainable, and value-driven properties. We specialize in both residential and commercial developments, focusing on architectural excellence, premium materials, and long-term quality." />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en" />
-    <meta property="og:url" content="your url" />
-    <meta property="og:image" content="your image" />
+    <meta property="og:url" content="https://haya-properties.com" />
+    <meta property="og:image" content="https://haya-properties.com/assets/images/logo.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Creative Digital Agency - Hulo" />
+    <meta property="og:image:alt" content="Haya Properties" />
 
     <!-- All CSS -->
     <link rel="stylesheet" href="assets/plugins/css/bootstrap.min.css" />
@@ -181,7 +181,7 @@
                         <!-- Section Head -->
                         <div class="tc-sec-head">
                             <p class="tc-sec-head__sm-title mb-0"><span class="dot"></span>Who we are</p>
-                            <h3 class="tc-sec-head__title has_word_anim" style="color:#cda448">
+                            <h3 class="tc-sec-head__title has_word_anim" style="color:#e7c954">
                             Transforming Ideas into Iconic Structures.                            </h3>
                         </div>
 
@@ -229,7 +229,7 @@
                     <div class="tc-latest-project__header">
                         <div class="tc-sec-head text-center">
                             <p class="tc-sec-head__sm-title mb-0"><span class="dot"></span>Our Latest Project</p>
-                            <h3 class="tc-sec-head__title has_word_anim" style="color:#cda448">
+                            <h3 class="tc-sec-head__title has_word_anim" style="color:#e7c954">
                             Turning Blueprints Into Reality
                             </h3>
                         </div>
@@ -840,34 +840,34 @@
                 </section>
                 <!-- End Portfolio Area -->
 
-                <section class="tc-features tc-features--style2 section-gap-3 pb-0">
+                <section class="tc-features tc-features--style2 py-3 pb-0">
                             <div class="container">
                                 <div class="tc-features__wrapper">
                                     <!-- Single Features  -->
                                     <div class="tc-feature__item">
-                                        <span class="tc-feature__label">Clients</span>
+                                        <span class="tc-feature__label">Landmarks</span>
                                         <h3 class="tc-feature__title"><span class="counter">250</span>+</h3>
-                                        <p class="tc-feature__text">
+                                        <!-- <p class="tc-feature__text">
                                             With over a decade of experience, Shape is an energetic, fresh and vibrant team offering creative talent and industry knowledge.
-                                        </p>
+                                        </p> -->
                                     </div>
 
                                     <!-- Single Features  -->
                                     <div class="tc-feature__item">
-                                        <span class="tc-feature__label">Referals</span>
-                                        <h3 class="tc-feature__title"><span class="counter">55</span>%</h3>
-                                        <p class="tc-feature__text">
+                                        <span class="tc-feature__label">Units Sold</span>
+                                        <h3 class="tc-feature__title"><span class="counter">55</span>+</h3>
+                                        <!-- <p class="tc-feature__text">
                                             Over 55% of our projects are referrals from clients already with us. Our clients love to spread the love far and wide.
-                                        </p>
+                                        </p> -->
                                     </div>
 
                                     <!-- Single Features  -->
                                     <div class="tc-feature__item">
-                                        <span class="tc-feature__label">Winning Awards</span>
-                                        <h3 class="tc-feature__title"><span class="counter">80</span>%</h3>
-                                        <p class="tc-feature__text">
+                                        <span class="tc-feature__label">Lacs of Sq.Ft. Developed</span>
+                                        <h3 class="tc-feature__title"><span class="counter">30</span>+</h3>
+                                        <!-- <p class="tc-feature__text">
                                             Recognizing extraordinary accomplishments, honoring remarkable milestones, celebrating exceptional excellence.
-                                        </p>
+                                        </p> -->       
                                     </div>
                                 </div>
                             </div>

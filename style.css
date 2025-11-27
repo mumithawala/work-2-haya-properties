@@ -59,13 +59,13 @@
   position: relative;
   z-index: 3;
   color: #fff;
-  max-width: 800px;
+  max-width: 960px;
   padding: 20px;
 }
 
 .hero-content h1 {
  
-  color: #cda448 !important;
+  color: #e7c954 !important;
 }
 
 .hero-content p {
