@@ -3,7 +3,7 @@
 ==============================================================================================*/
 .tc-page-title {
   position: relative;
-  min-height: 400px;
+  min-height: 460px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,7 +75,7 @@
 
 @media only screen and (max-width: 767px) {
   .tc-page-title {
-    min-height: 250px;
+    min-height:380px;
   }
   
   .tc-page-title__content {

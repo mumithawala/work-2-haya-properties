@@ -43,6 +43,7 @@
         <link rel="stylesheet" href="assets/plugins/css/uicons.min.css" />
         <!-- Main CSS -->
         <link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/555d59b0c9.js" crossorigin="anonymous"></script>
     </head>
 
     <body class="element-wrapper">

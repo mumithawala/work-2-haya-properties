@@ -29,7 +29,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en" />
     <meta property="og:url" content="https://haya-properties.com" />
-    <meta property="og:image" content="https://haya-properties.com/assets/images/logo.png" />
+    <meta property="og:image" content="https://haya-properties.com/assets/images/logo.PNG" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Haya Properties" />
@@ -45,6 +45,9 @@
     <link rel="stylesheet" href="assets/plugins/css/uicons.min.css" />
     <!-- Main CSS -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/555d59b0c9.js" crossorigin="anonymous"></script>
+
     <script>
 /* Latest Launch: vertical auto-scrolling thumbnail column + update hero */
 (function(){
@@ -171,6 +174,8 @@
                     </div>
                 </section>
                 <!-- Start Hero Area -->
+
+
                
 
                
@@ -188,7 +193,7 @@
                         <div class="tc-about__inner">
                             <!-- Bubble  -->
                             <div class="tc-about-bubble">
-                                <img class="spinner-ani" src="assets/images/about/bubble.svg" alt="bubble" />
+                                <img class="spinner-ani" src="assets/images/haya-h.PNG" alt="bubble" />
                             </div>
 
                             <!-- Content  -->
@@ -219,11 +224,6 @@
                     </div>
                 </section>
 
-
-       
-                <!-- End About Area -->
-
-                <!-- Start Latest Project Area -->
                 <section class="tc-latest-project section-gap">
                     <!-- Section Head -->
                     <div class="tc-latest-project__header">
@@ -234,12 +234,82 @@
                             </h3>
                         </div>
                     </div>
+                <div class="swiper swiper-new mySwiper-new">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper-slide-new">
+                            <div class="tc-latest-project__item compact bg-img" style="background-image: url('assets/images/projects/front.jpg');">
+                                <span class="tc-latest-project__badge exterior">Exterior</span>
+                                <div class="tc-latest-project__content">
+                                    <p class="tc-latest-project__label">
+                                        <span>Commercial </span>
+                                        <span>Residential</span>
+                                    </p>
+                                    <h4 class="tc-latest-project__title">Palm Haya</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-new">
+                            <div class="tc-latest-project__item compact bg-img" style="background-image: url('assets/images/projects/top.jpg');">
+                                <span class="tc-latest-project__badge exterior">Exterior</span>
+                                <div class="tc-latest-project__content">
+                                    <p class="tc-latest-project__label">
+                                        <span>Commercial </span>
+                                        <span>Residential</span>
+                                    </p>
+                                    <h4 class="tc-latest-project__title">Palm Haya</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-new">
+                            <div class="tc-latest-project__item compact bg-img" style="background-image: url('assets/images/projects/entry.jpg');">
+                                <span class="tc-latest-project__badge interior">Interior</span>
+                                <div class="tc-latest-project__content">
+                                    <p class="tc-latest-project__label">
+                                        <span>Commercial </span>
+                                        <span>Residential</span>
+                                    </p>
+                                    <h4 class="tc-latest-project__title">Palm Haya</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-new">
+                            <div class="tc-latest-project__item compact bg-img" style="background-image: url('assets/images/projects/play.jpg');">
+                                <span class="tc-latest-project__badge exterior">Exterior</span>
+                                <div class="tc-latest-project__content">
+                                    <p class="tc-latest-project__label">
+                                        <span>Residential</span>
+                                    </p>
+                                    <h4 class="tc-latest-project__title">Palm Haya</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-new">
+                            <div class="tc-latest-project__item compact bg-img" style="background-image: url('assets/images/projects/night.jpg');">
+                                <span class="tc-latest-project__badge exterior">Exterior</span>
+                                <div class="tc-latest-project__content">
+                                    <p class="tc-latest-project__label">
+                                        <span>Commercial </span>
+                                        <span>Residential</span>
+                                    </p>
+                                    <h4 class="tc-latest-project__title">Palm Haya</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination-new"></div>
+                </div>
+                </section>
 
-                    <!-- Full Width Slider -->
+       
+                <!-- End About Area -->
+
+                <!-- Start Latest Project Area -->
+                <!-- <section class="tc-latest-project section-gap">
+                    
+
                     <div class="tc-latest-project__slider-wrapper">
                         <div class="swiper tc-latest-project__slider">
                             <div class="swiper-wrapper">
-                                <!-- Single Slide -->
                                 <div class="swiper-slide">
                                     <div class="tc-latest-project__item bg-img" style="background-image: url('assets/images/projects/front.jpg');">
                                         <span class="tc-latest-project__badge exterior">Exterior</span>
@@ -253,7 +323,6 @@
                                     </div>
                                 </div>
 
-                                <!-- Single Slide -->
                                 <div class="swiper-slide">
                                     <div class="tc-latest-project__item bg-img" style="background-image: url('assets/images/projects/top.jpg');">
                                         <span class="tc-latest-project__badge exterior">Exterior</span>
@@ -267,7 +336,6 @@
                                     </div>
                                 </div>
 
-                                <!-- Single Slide -->
                                 <div class="swiper-slide">
                                     <div class="tc-latest-project__item bg-img" style="background-image: url('assets/images/projects/entry.jpg');">
                                         <span class="tc-latest-project__badge interior">Interior</span>
@@ -281,7 +349,6 @@
                                     </div>
                                 </div>
 
-                                <!-- Single Slide -->
                                 <div class="swiper-slide">
                                     <div class="tc-latest-project__item bg-img" style="background-image: url('assets/images/projects/play.jpg');">
                                         <span class="tc-latest-project__badge exterior">Exterior</span>
@@ -295,7 +362,6 @@
                                     </div>
                                 </div>
 
-                                <!-- Single Slide -->
                                 <div class="swiper-slide">
                                     <div class="tc-latest-project__item bg-img" style="background-image: url('assets/images/projects/play.jpg');">
                                         <span class="tc-latest-project__badge interior">Interior</span>
@@ -309,7 +375,6 @@
                                     </div>
                                 </div>
 
-                                <!-- Single Slide -->
                                 <div class="swiper-slide">
                                     <div class="tc-latest-project__item bg-img" style="background-image: url('assets/images/projects/play.jpg');">
                                         <span class="tc-latest-project__badge exterior">Exterior</span>
@@ -325,7 +390,7 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> -->
                 <!-- End Latest Project Area -->
 
 
@@ -841,19 +906,17 @@
                 <!-- End Portfolio Area -->
 
                 <section class="tc-features tc-features--style2 py-3 pb-0">
-                            <div class="container">
-                                <div class="tc-features__wrapper">
+                            <div class="container d-flex justify-content-center">
+                                <div class="tc-features__wrapper ">
                                     <!-- Single Features  -->
-                                    <div class="tc-feature__item">
+                                    <div class="tc-feature__item text-center">
                                         <span class="tc-feature__label">Landmarks</span>
                                         <h3 class="tc-feature__title"><span class="counter">250</span>+</h3>
-                                        <!-- <p class="tc-feature__text">
-                                            With over a decade of experience, Shape is an energetic, fresh and vibrant team offering creative talent and industry knowledge.
-                                        </p> -->
+                                        
                                     </div>
 
                                     <!-- Single Features  -->
-                                    <div class="tc-feature__item">
+                                    <div class="tc-feature__item text-center">
                                         <span class="tc-feature__label">Units Sold</span>
                                         <h3 class="tc-feature__title"><span class="counter">55</span>+</h3>
                                         <!-- <p class="tc-feature__text">
@@ -862,7 +925,7 @@
                                     </div>
 
                                     <!-- Single Features  -->
-                                    <div class="tc-feature__item">
+                                    <div class="tc-feature__item text-center">
                                         <span class="tc-feature__label">Lacs of Sq.Ft. Developed</span>
                                         <h3 class="tc-feature__title"><span class="counter">30</span>+</h3>
                                         <!-- <p class="tc-feature__text">
@@ -873,425 +936,7 @@
                             </div>
                         </section>
 
-                <!-- Start Team Area -->
-                <section class="tc-team section-gap">
-                    <div class="container">
-                        <div class="tc-team__inner">
-                            <!-- Section Head  -->
-                            <div class="tc-sec-head">
-                                <p class="tc-sec-head__sm-title"><span class="dot"></span>Our Awesome Team</p>
-                                <h3 class="tc-sec-head__title has_word_anim">
-                                    Meet the team
-                                </h3>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <!-- Single Team  -->
-                                    <div class="tc-team__item wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                                        <div class="tc-team__cover">
-                                            <!-- Image  -->
-                                            <div class="tc-team__img">
-                                                <img src="assets/images/team/team-1.png" alt="team-img" />
-                                            </div>
-
-                                            <!-- Social  -->
-                                            <ul class="tc-team__social">
-                                                <li>
-                                                    <a href="https://www.youtube.com/" target="_blank">
-                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <g clip-path="url(#clip0_503_2146)">
-                                                                <path
-                                                                    d="M12.1955 5.6001C12.6228 5.60245 13.6919 5.61279 14.8278 5.65828L15.2305 5.67584C16.3742 5.72999 17.5168 5.82249 18.0836 5.98051C18.8395 6.19288 19.4337 6.81255 19.6345 7.59804C19.9543 8.84537 19.9943 11.2799 19.9993 11.869L20 11.9911V11.9997C20 11.9997 20 12.0026 20 12.0083L19.9993 12.1304C19.9943 12.7195 19.9543 15.154 19.6345 16.4014C19.4309 17.1897 18.8367 17.8094 18.0836 18.0189C17.5168 18.1769 16.3742 18.2694 15.2305 18.3236L14.8278 18.3411C13.6919 18.3866 12.6228 18.3969 12.1955 18.3993L12.008 18.4H11.9996C11.9996 18.4 11.9968 18.4 11.9913 18.4L11.804 18.3993C10.8996 18.3944 7.11832 18.3535 5.91569 18.0189C5.15973 17.8065 4.56556 17.1869 4.36471 16.4014C4.04496 15.154 4.00499 12.7195 4 12.1304V11.869C4.00499 11.2799 4.04496 8.84537 4.36471 7.59804C4.56835 6.80964 5.16252 6.18998 5.91569 5.98051C7.11832 5.64588 10.8996 5.60507 11.804 5.6001H12.1955ZM10.3996 9.19957V14.7998L15.1998 11.9997L10.3996 9.19957Z"
-                                                                    fill="#54595F" />
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_503_2146">
-                                                                    <rect width="24" height="24" fill="white" />
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="https://www.facebook.com/" target="_blank">
-                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <g clip-path="url(#clip0_503_2150)">
-                                                                <path
-                                                                    d="M13.4008 13.2H15.4008L16.2008 10H13.4008V8.4C13.4008 7.5765 13.4008 6.8 15.0008 6.8H16.2008V4.11208C15.9402 4.07748 14.9552 4 13.9151 4C11.7435 4 10.2008 5.32549 10.2008 7.75977V10H7.80078V13.2H10.2008V20H13.4008V13.2Z"
-                                                                    fill="#54595F" />
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_503_2150">
-                                                                    <rect width="24" height="24" fill="white" />
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="https://x.com/" target="_blank">
-                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <g clip-path="url(#clip0_503_2154)">
-                                                                <path
-                                                                    d="M9.09091 4.72729H4L10.0079 12.7378L4.32724 19.2727H6.25453L10.9006 13.928L14.9091 19.2727H20L13.7394 10.9253L19.1273 4.72729H17.2001L12.8468 9.73514L9.09091 4.72729Z"
-                                                                    fill="#54595F" />
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_503_2154">
-                                                                    <rect width="24" height="24" fill="white" />
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="https://linkedin.com/" target="_blank">
-                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <g clip-path="url(#clip0_503_2158)">
-                                                                <path
-                                                                    d="M7.35785 6.12424C7.35754 6.80782 6.94282 7.42295 6.30925 7.67958C5.67569 7.93622 4.94979 7.7831 4.47385 7.29244C3.9979 6.80177 3.86696 6.07154 4.14277 5.44608C4.41858 4.82063 5.04605 4.42483 5.72931 4.44534C6.63682 4.47258 7.35826 5.21633 7.35785 6.12424ZM7.40821 9.04553H4.05041V19.5554H7.40821V9.04553ZM12.7136 9.04553H9.37253V19.5554H12.68V14.0402C12.68 10.9679 16.6842 10.6824 16.6842 14.0402V19.5554H20V12.8986C20 7.7192 14.0735 7.91227 12.68 10.4558L12.7136 9.04553Z"
-                                                                    fill="#54595F" />
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_503_2158">
-                                                                    <rect width="24" height="24" fill="white" />
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Info  -->
-                                        <div class="tc-team__info">
-                                            <a href="team-details.html" class="tc-team__name">Alan Begham</a>
-                                            <p class="tc-team__designation">CEO Neuro</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <!-- Single Team  -->
-                                    <div class="tc-team__item wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
-                                        <div class="tc-team__cover">
-                                            <!-- Image  -->
-                                            <div class="tc-team__img">
-                                                <img src="assets/images/team/team-2.png" alt="team-img" />
-                                            </div>
-
-                                            <!-- Social  -->
-                                            <ul class="tc-team__social">
-                                                <li>
-                                                    <a href="https://www.youtube.com/" target="_blank">
-                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <g clip-path="url(#clip0_503_2146)">
-                                                                <path
-                                                                    d="M12.1955 5.6001C12.6228 5.60245 13.6919 5.61279 14.8278 5.65828L15.2305 5.67584C16.3742 5.72999 17.5168 5.82249 18.0836 5.98051C18.8395 6.19288 19.4337 6.81255 19.6345 7.59804C19.9543 8.84537 19.9943 11.2799 19.9993 11.869L20 11.9911V11.9997C20 11.9997 20 12.0026 20 12.0083L19.9993 12.1304C19.9943 12.7195 19.9543 15.154 19.6345 16.4014C19.4309 17.1897 18.8367 17.8094 18.0836 18.0189C17.5168 18.1769 16.3742 18.2694 15.2305 18.3236L14.8278 18.3411C13.6919 18.3866 12.6228 18.3969 12.1955 18.3993L12.008 18.4H11.9996C11.9996 18.4 11.9968 18.4 11.9913 18.4L11.804 18.3993C10.8996 18.3944 7.11832 18.3535 5.91569 18.0189C5.15973 17.8065 4.56556 17.1869 4.36471 16.4014C4.04496 15.154 4.00499 12.7195 4 12.1304V11.869C4.00499 11.2799 4.04496 8.84537 4.36471 7.59804C4.56835 6.80964 5.16252 6.18998 5.91569 5.98051C7.11832 5.64588 10.8996 5.60507 11.804 5.6001H12.1955ZM10.3996 9.19957V14.7998L15.1998 11.9997L10.3996 9.19957Z"
-                                                                    fill="#54595F" />
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_503_2146">
-                                                                    <rect width="24" height="24" fill="white" />
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="https://www.facebook.com/" target="_blank">
-                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <g clip-path="url(#clip0_503_2150)">
-                                                                <path
-                                                                    d="M13.4008 13.2H15.4008L16.2008 10H13.4008V8.4C13.4008 7.5765 13.4008 6.8 15.0008 6.8H16.2008V4.11208C15.9402 4.07748 14.9552 4 13.9151 4C11.7435 4 10.2008 5.32549 10.2008 7.75977V10H7.80078V13.2H10.2008V20H13.4008V13.2Z"
-                                                                    fill="#54595F" />
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_503_2150">
-                                                                    <rect width="24" height="24" fill="white" />
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="https://x.com/" target="_blank">
-                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <g clip-path="url(#clip0_503_2154)">
-                                                                <path
-                                                                    d="M9.09091 4.72729H4L10.0079 12.7378L4.32724 19.2727H6.25453L10.9006 13.928L14.9091 19.2727H20L13.7394 10.9253L19.1273 4.72729H17.2001L12.8468 9.73514L9.09091 4.72729Z"
-                                                                    fill="#54595F" />
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_503_2154">
-                                                                    <rect width="24" height="24" fill="white" />
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="https://linkedin.com/" target="_blank">
-                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <g clip-path="url(#clip0_503_2158)">
-                                                                <path
-                                                                    d="M7.35785 6.12424C7.35754 6.80782 6.94282 7.42295 6.30925 7.67958C5.67569 7.93622 4.94979 7.7831 4.47385 7.29244C3.9979 6.80177 3.86696 6.07154 4.14277 5.44608C4.41858 4.82063 5.04605 4.42483 5.72931 4.44534C6.63682 4.47258 7.35826 5.21633 7.35785 6.12424ZM7.40821 9.04553H4.05041V19.5554H7.40821V9.04553ZM12.7136 9.04553H9.37253V19.5554H12.68V14.0402C12.68 10.9679 16.6842 10.6824 16.6842 14.0402V19.5554H20V12.8986C20 7.7192 14.0735 7.91227 12.68 10.4558L12.7136 9.04553Z"
-                                                                    fill="#54595F" />
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_503_2158">
-                                                                    <rect width="24" height="24" fill="white" />
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Info  -->
-                                        <div class="tc-team__info">
-                                            <a href="team-details.html" class="tc-team__name">Dani Addam</a>
-                                            <p class="tc-team__designation">CEO Adrov</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <!-- Single Team  -->
-                                    <div class="tc-team__item wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
-                                        <div class="tc-team__cover">
-                                            <!-- Image  -->
-                                            <div class="tc-team__img">
-                                                <img src="assets/images/team/team-3.png" alt="team-img" />
-                                            </div>
-
-                                            <!-- Social  -->
-                                            <ul class="tc-team__social">
-                                                <li>
-                                                    <a href="https://www.youtube.com/" target="_blank">
-                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <g clip-path="url(#clip0_503_2146)">
-                                                                <path
-                                                                    d="M12.1955 5.6001C12.6228 5.60245 13.6919 5.61279 14.8278 5.65828L15.2305 5.67584C16.3742 5.72999 17.5168 5.82249 18.0836 5.98051C18.8395 6.19288 19.4337 6.81255 19.6345 7.59804C19.9543 8.84537 19.9943 11.2799 19.9993 11.869L20 11.9911V11.9997C20 11.9997 20 12.0026 20 12.0083L19.9993 12.1304C19.9943 12.7195 19.9543 15.154 19.6345 16.4014C19.4309 17.1897 18.8367 17.8094 18.0836 18.0189C17.5168 18.1769 16.3742 18.2694 15.2305 18.3236L14.8278 18.3411C13.6919 18.3866 12.6228 18.3969 12.1955 18.3993L12.008 18.4H11.9996C11.9996 18.4 11.9968 18.4 11.9913 18.4L11.804 18.3993C10.8996 18.3944 7.11832 18.3535 5.91569 18.0189C5.15973 17.8065 4.56556 17.1869 4.36471 16.4014C4.04496 15.154 4.00499 12.7195 4 12.1304V11.869C4.00499 11.2799 4.04496 8.84537 4.36471 7.59804C4.56835 6.80964 5.16252 6.18998 5.91569 5.98051C7.11832 5.64588 10.8996 5.60507 11.804 5.6001H12.1955ZM10.3996 9.19957V14.7998L15.1998 11.9997L10.3996 9.19957Z"
-                                                                    fill="#54595F" />
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_503_2146">
-                                                                    <rect width="24" height="24" fill="white" />
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="https://www.facebook.com/" target="_blank">
-                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <g clip-path="url(#clip0_503_2150)">
-                                                                <path
-                                                                    d="M13.4008 13.2H15.4008L16.2008 10H13.4008V8.4C13.4008 7.5765 13.4008 6.8 15.0008 6.8H16.2008V4.11208C15.9402 4.07748 14.9552 4 13.9151 4C11.7435 4 10.2008 5.32549 10.2008 7.75977V10H7.80078V13.2H10.2008V20H13.4008V13.2Z"
-                                                                    fill="#54595F" />
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_503_2150">
-                                                                    <rect width="24" height="24" fill="white" />
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="https://x.com/" target="_blank">
-                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <g clip-path="url(#clip0_503_2154)">
-                                                                <path
-                                                                    d="M9.09091 4.72729H4L10.0079 12.7378L4.32724 19.2727H6.25453L10.9006 13.928L14.9091 19.2727H20L13.7394 10.9253L19.1273 4.72729H17.2001L12.8468 9.73514L9.09091 4.72729Z"
-                                                                    fill="#54595F" />
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_503_2154">
-                                                                    <rect width="24" height="24" fill="white" />
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="https://linkedin.com/" target="_blank">
-                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <g clip-path="url(#clip0_503_2158)">
-                                                                <path
-                                                                    d="M7.35785 6.12424C7.35754 6.80782 6.94282 7.42295 6.30925 7.67958C5.67569 7.93622 4.94979 7.7831 4.47385 7.29244C3.9979 6.80177 3.86696 6.07154 4.14277 5.44608C4.41858 4.82063 5.04605 4.42483 5.72931 4.44534C6.63682 4.47258 7.35826 5.21633 7.35785 6.12424ZM7.40821 9.04553H4.05041V19.5554H7.40821V9.04553ZM12.7136 9.04553H9.37253V19.5554H12.68V14.0402C12.68 10.9679 16.6842 10.6824 16.6842 14.0402V19.5554H20V12.8986C20 7.7192 14.0735 7.91227 12.68 10.4558L12.7136 9.04553Z"
-                                                                    fill="#54595F" />
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_503_2158">
-                                                                    <rect width="24" height="24" fill="white" />
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Info  -->
-                                        <div class="tc-team__info">
-                                            <a href="team-details.html" class="tc-team__name">Mark Henry</a>
-                                            <p class="tc-team__designation">CEO Hulo</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <!-- Single Team  -->
-                                    <div class="tc-team__item wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                                        <div class="tc-team__cover">
-                                            <!-- Image  -->
-                                            <div class="tc-team__img">
-                                                <img src="assets/images/team/team-4.png" alt="team-img" />
-                                            </div>
-
-                                            <!-- Social  -->
-                                            <ul class="tc-team__social">
-                                                <li>
-                                                    <a href="https://www.youtube.com/" target="_blank">
-                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <g clip-path="url(#clip0_503_2146)">
-                                                                <path
-                                                                    d="M12.1955 5.6001C12.6228 5.60245 13.6919 5.61279 14.8278 5.65828L15.2305 5.67584C16.3742 5.72999 17.5168 5.82249 18.0836 5.98051C18.8395 6.19288 19.4337 6.81255 19.6345 7.59804C19.9543 8.84537 19.9943 11.2799 19.9993 11.869L20 11.9911V11.9997C20 11.9997 20 12.0026 20 12.0083L19.9993 12.1304C19.9943 12.7195 19.9543 15.154 19.6345 16.4014C19.4309 17.1897 18.8367 17.8094 18.0836 18.0189C17.5168 18.1769 16.3742 18.2694 15.2305 18.3236L14.8278 18.3411C13.6919 18.3866 12.6228 18.3969 12.1955 18.3993L12.008 18.4H11.9996C11.9996 18.4 11.9968 18.4 11.9913 18.4L11.804 18.3993C10.8996 18.3944 7.11832 18.3535 5.91569 18.0189C5.15973 17.8065 4.56556 17.1869 4.36471 16.4014C4.04496 15.154 4.00499 12.7195 4 12.1304V11.869C4.00499 11.2799 4.04496 8.84537 4.36471 7.59804C4.56835 6.80964 5.16252 6.18998 5.91569 5.98051C7.11832 5.64588 10.8996 5.60507 11.804 5.6001H12.1955ZM10.3996 9.19957V14.7998L15.1998 11.9997L10.3996 9.19957Z"
-                                                                    fill="#54595F" />
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_503_2146">
-                                                                    <rect width="24" height="24" fill="white" />
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="https://www.facebook.com/" target="_blank">
-                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <g clip-path="url(#clip0_503_2150)">
-                                                                <path
-                                                                    d="M13.4008 13.2H15.4008L16.2008 10H13.4008V8.4C13.4008 7.5765 13.4008 6.8 15.0008 6.8H16.2008V4.11208C15.9402 4.07748 14.9552 4 13.9151 4C11.7435 4 10.2008 5.32549 10.2008 7.75977V10H7.80078V13.2H10.2008V20H13.4008V13.2Z"
-                                                                    fill="#54595F" />
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_503_2150">
-                                                                    <rect width="24" height="24" fill="white" />
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="https://x.com/" target="_blank">
-                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <g clip-path="url(#clip0_503_2154)">
-                                                                <path
-                                                                    d="M9.09091 4.72729H4L10.0079 12.7378L4.32724 19.2727H6.25453L10.9006 13.928L14.9091 19.2727H20L13.7394 10.9253L19.1273 4.72729H17.2001L12.8468 9.73514L9.09091 4.72729Z"
-                                                                    fill="#54595F" />
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_503_2154">
-                                                                    <rect width="24" height="24" fill="white" />
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </a>
-                                                </li>
-
-                                                <li>
-                                                    <a href="https://linkedin.com/" target="_blank">
-                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <g clip-path="url(#clip0_503_2158)">
-                                                                <path
-                                                                    d="M7.35785 6.12424C7.35754 6.80782 6.94282 7.42295 6.30925 7.67958C5.67569 7.93622 4.94979 7.7831 4.47385 7.29244C3.9979 6.80177 3.86696 6.07154 4.14277 5.44608C4.41858 4.82063 5.04605 4.42483 5.72931 4.44534C6.63682 4.47258 7.35826 5.21633 7.35785 6.12424ZM7.40821 9.04553H4.05041V19.5554H7.40821V9.04553ZM12.7136 9.04553H9.37253V19.5554H12.68V14.0402C12.68 10.9679 16.6842 10.6824 16.6842 14.0402V19.5554H20V12.8986C20 7.7192 14.0735 7.91227 12.68 10.4558L12.7136 9.04553Z"
-                                                                    fill="#54595F" />
-                                                            </g>
-                                                            <defs>
-                                                                <clipPath id="clip0_503_2158">
-                                                                    <rect width="24" height="24" fill="white" />
-                                                                </clipPath>
-                                                            </defs>
-                                                        </svg>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Info  -->
-                                        <div class="tc-team__info">
-                                            <a href="team-details.html" class="tc-team__name">Ruben Arcand</a>
-                                            <p class="tc-team__designation">CEO Kenli corn</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-8 col-12">
-                                    <!-- CTA  -->
-                                    <div class="tc-team-cta bg-img wow fadeInUp" data-wow-delay=".5s"
-                                        data-wow-duration="1s"
-                                        style="background-image: url('assets/images/team/cta-bg.png');">
-                                        <div class="tc-team-cta__cont">
-                                            <div class="tc-team-cta__cont-top">
-                                                <h4 class="tc-team-cta__title">Our Awesome Team</h4>
-                                                <p class="tc-team-cta__text">
-                                                    The Neural Network experts: uniting talent for intelligent solutions
-                                                </p>
-                                            </div>
-
-                                            <div class="tc-team-cta__cont-btm">
-                                                <!-- Number  -->
-                                                <div class="tc-team-cta__number">
-                                                    <h2 class="big-number"><span
-                                                            class="counter">250</span><small>+</small></h2>
-                                                    <p class="number-text">Awesome team members</p>
-                                                </div>
-
-                                                <!-- Button  -->
-                                                <div class="tc-team-cta__btn">
-                                                    <a href="team.html" class="theme-btn">Meet The Team</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- End Team Area -->
+               
 
                 <!-- Start Testimonial Area -->
                 <section class="tc-testimonial bg-offwhite section-gap">
@@ -1748,7 +1393,92 @@
 
     <!-- Int JS -->
     <script src="assets/plugins/js/active.js"></script>
-    
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+
+<!-- Initialize Hero Vertical Swiper -->
+<script>
+(function(){
+  function initHeroVerticalSlider() {
+    if(typeof Swiper === 'undefined') {
+      setTimeout(initHeroVerticalSlider, 120);
+      return;
+    }
+
+    const heroSliderEl = document.querySelector('.mySwiper-new');
+    if(!heroSliderEl) return;
+
+    const totalHeroSlides = heroSliderEl.querySelectorAll('.swiper-slide-new').length;
+    let heroAutoplayCompleted = false;
+
+    const heroSwiper = new Swiper('.mySwiper-new', {
+      direction: 'vertical',
+      slidesPerView: 1,
+      spaceBetween: 40,
+      speed: 900,
+      loop: false,
+      effect: 'slide',
+      allowTouchMove: true,
+      pagination: {
+        el: '.swiper-pagination-new',
+        clickable: true,
+      },
+      mousewheel: {
+        enabled: true,
+        sensitivity: 1,
+        releaseOnEdges: true,
+      },
+      autoplay: {
+        delay: 3200,
+        disableOnInteraction: false,
+      },
+      on: {
+        slideChange: function() {
+          if (this.activeIndex >= totalHeroSlides - 1) {
+            this.autoplay.stop();
+            heroAutoplayCompleted = true;
+          }
+        },
+        reachEnd: function() {
+          this.autoplay.stop();
+          heroAutoplayCompleted = true;
+        },
+      },
+    });
+
+    heroSwiper.autoplay.stop();
+
+    const heroSection = document.querySelector('.swiper-new');
+    if (heroSection && 'IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && entry.intersectionRatio >= 0.85) {
+            if (!heroAutoplayCompleted) {
+              heroSwiper.autoplay.start();
+            }
+          } else {
+            heroSwiper.autoplay.stop();
+          }
+        });
+      }, {
+        threshold: [0.5, 0.7, 0.85],
+      });
+
+      observer.observe(heroSection);
+    } else {
+      setTimeout(() => {
+        if (!heroAutoplayCompleted) heroSwiper.autoplay.start();
+      }, 700);
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => setTimeout(initHeroVerticalSlider, 400));
+  } else {
+    setTimeout(initHeroVerticalSlider, 400);
+  }
+})();
+</script>
     <!-- Latest Project Vertical Slider -->
     <script>
     (function(){
@@ -1839,6 +1569,7 @@
       }
     })();
     </script>
+
 </body>
 
 </html>

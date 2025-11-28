@@ -26,7 +26,8 @@
   width: 180px;
 }
 .tc-about-bubble .spinner-ani {
-  animation: spin 40s linear infinite;
+  animation: pulseScale 4s ease-in-out infinite;
+  -webkit-animation: pulseScale 4s ease-in-out infinite;
 }
 .tc-about-cont {
   display: flex;

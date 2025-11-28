@@ -17,7 +17,7 @@
                   <!-- Logo  -->
                   <div class="tc-header-logo">
                       <a href="index.php">
-                          <img src="assets/images/logo.png" width="80px" alt="logo" />
+                          <img src="assets/images/logo.PNG" width="80px" alt="logo" />
                       </a>
                   </div>
 
@@ -46,6 +46,7 @@
                               <a href="javascript:void(0)">Our Projects</a>
                               <ul class="sub-menu">
                                   <li><a href="palm-haya.php">Palm Haya</a></li>
+                                  <li><a href="palm-haya.php">Harmony</a></li>
                                   
                               </ul>
                           </li>
@@ -55,7 +56,7 @@
                           
 
                           <li>
-                              <a href="">Connect With Us</a>
+                              <a href="contact.php">Connect With Us</a>
                           </li>
                       </ul>
                   </nav>
@@ -85,7 +86,7 @@
                 <div class="side-menu-top">
                     <!-- Logo  -->
                     <div class="side-menu-logo">
-                        <a href="index.php"><img src="assets/images/logo.png" alt="logo"  width="140px"/></a>
+                        <a href="index.php"><img src="assets/images/logo.PNG" alt="logo"  width="140px"/></a>
                     </div>
 
                     <!-- Close  -->
@@ -111,15 +112,15 @@
                     <ul class="side-menu-list">
                         <li>
                             <i class="fi-rr-marker"></i>
-                            <a href="javascript:void(0)">Norway, Street Road 24, Oslo</a>
+                            <a href="javascript:void(0)">Khanpur, Ahmedabad, Gujarat, India</a>
                         </li>
                         <li>
                             <i class="fi-rr-phone-call"></i>
-                            <a href="tel:+000123456789">+000 123 (456) 789</a>
+                            <a href="tel:+91 98250 00000">+91 98250 00000</a>
                         </li>
                         <li>
                             <i class="fi-rr-envelope"></i>
-                            <a href="mailto:biogracontact@gmail.com">contact@gmail.com</a>
+                            <a href="mailto:hayaaproperties@gmail.com">hayaaproperties@gmail.com</a>
                         </li>
                     </ul>
                 </div>

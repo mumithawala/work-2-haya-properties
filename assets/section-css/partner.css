@@ -3,6 +3,8 @@
 ===================================================================================================*/
 .tc-partner {
   overflow: hidden;
+  background-attachment: fixed !important;
+ 
 }
 .tc-partner .container {
   max-width: 1500px;

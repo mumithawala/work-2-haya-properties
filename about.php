@@ -40,8 +40,11 @@
         <link rel="stylesheet" href="assets/plugins/css/nice-select.min.css" />
         <link rel="stylesheet" href="assets/plugins/css/fancybox.min.css" />
         <link rel="stylesheet" href="assets/plugins/css/uicons.min.css" />
+
         <!-- Main CSS -->
         <link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/555d59b0c9.js" crossorigin="anonymous"></script>
+
     </head>
 
     <body class="element-wrapper">
@@ -176,10 +179,10 @@
 
                         <!-- Start Features Area -->
                         <section class="tc-features tc-features--style2 py-3 pb-0">
-                            <div class="container">
+                            <div class="container d-flex justify-content-center">
                                 <div class="tc-features__wrapper">
                                     <!-- Single Features  -->
-                                    <div class="tc-feature__item">
+                                    <div class="tc-feature__item text-center">
                                         <span class="tc-feature__label">Landmarks</span>
                                         <h3 class="tc-feature__title"><span class="counter">250</span>+</h3>
                                         <!-- <p class="tc-feature__text">
@@ -188,7 +191,7 @@
                                     </div>
 
                                     <!-- Single Features  -->
-                                    <div class="tc-feature__item">
+                                    <div class="tc-feature__item text-center">
                                         <span class="tc-feature__label">Units Sold</span>
                                         <h3 class="tc-feature__title"><span class="counter">55</span>+</h3>
                                         <!-- <p class="tc-feature__text">
@@ -197,7 +200,7 @@
                                     </div>
 
                                     <!-- Single Features  -->
-                                    <div class="tc-feature__item">
+                                    <div class="tc-feature__item text-center">
                                         <span class="tc-feature__label">Lacs of Sq.Ft. Developed</span>
                                         <h3 class="tc-feature__title"><span class="counter">30</span>+</h3>
                                         <!-- <p class="tc-feature__text">

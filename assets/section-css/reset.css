@@ -800,6 +800,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed !important;
 }
 
 .bg-black {
@@ -922,7 +923,9 @@ p {
 }
 
 .spinner-ani {
-  animation: spin 9s linear infinite;
+  animation: pulseScale 4s ease-in-out infinite;
+  -webkit-animation: pulseScale 4s ease-in-out infinite;
+  transform-origin: center;
 }
 
 @-webkit-keyframes UpDown {
@@ -957,6 +960,32 @@ p {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes pulseScale {
+  0% {
+    -webkit-transform: scale(0.94);
+    transform: scale(0.94);
+  }
+  50% {
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+  }
+  100% {
+    -webkit-transform: scale(0.94);
+    transform: scale(0.94);
+  }
+}
+@keyframes pulseScale {
+  0% {
+    transform: scale(0.94);
+  }
+  50% {
+    transform: scale(1.04);
+  }
+  100% {
+    transform: scale(0.94);
   }
 }
 

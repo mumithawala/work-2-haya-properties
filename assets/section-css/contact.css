@@ -33,6 +33,29 @@
 .contact-form-btn {
   margin-top: 40px;
 }
+.contact-response {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--paragraph-color);
+  border-radius: 12px;
+  padding: 14px 18px;
+  background: rgba(15, 23, 42, 0.04);
+  border: 1px solid transparent;
+}
+.contact-response.success {
+  border-color: rgba(208, 255, 113, 0.4);
+  background: rgba(208, 255, 113, 0.25);
+  color: #0f172a;
+}
+.contact-response.error {
+  border-color: rgba(255, 99, 99, 0.45);
+  background: rgba(255, 99, 99, 0.2);
+  color: #8b1a1a;
+}
+.tc-contact__form button[type="submit"][disabled] {
+  opacity: 0.6;
+  pointer-events: none;
+}
 
 .tc-contact__form .form-check {
   min-height: auto;
