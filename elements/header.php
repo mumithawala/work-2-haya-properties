@@ -46,7 +46,7 @@
                               <a href="javascript:void(0)">Our Projects</a>
                               <ul class="sub-menu">
                                   <li><a href="palm-haya.php">Palm Haya</a></li>
-                                  <li><a href="palm-haya.php">Harmony</a></li>
+                                  <li><a href="harmony.php">Harmony</a></li>
                                   
                               </ul>
                           </li>

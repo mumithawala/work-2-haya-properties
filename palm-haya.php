@@ -97,14 +97,14 @@
                                         <!-- Project Gallery -->
                                         <div class="project-gallery">
                                             <div class="single-img">
-                                                <a href="assets/images/projects/play.jpg" data-fancybox="photo"> <img src="assets/images/projects/play.jpg" alt="grid-img-1" /></a>
+                                                <a href="assets/images/project-details/17.png" data-fancybox="photo"> <img src="assets/images/project-details/17.png" alt="grid-img-1" /></a>
                                             </div>
                                             <div class="image-group">
                                                 <div class="single-img">
-                                                    <a href="assets/images/projects/top.jpg" data-fancybox="photo"> <img src="assets/images/projects/top.jpg" alt="grid-img-1" /></a>
+                                                    <a href="assets/images/project-details/21.png" data-fancybox="photo"> <img src="assets/images/project-details/21.png" alt="grid-img-1" /></a>
                                                 </div>
                                                 <div class="single-img">
-                                                    <a href="assets/images/projects/top-right.jpg" data-fancybox="photo"> <img src="assets/images/projects/top-right.jpg" alt="grid-img-1" /></a>
+                                                    <a href="assets/images/project-details/22.png" data-fancybox="photo"> <img src="assets/images/project-details/22.png" alt="grid-img-1" /></a>
                                                 </div>
                                             </div>
                                         </div>

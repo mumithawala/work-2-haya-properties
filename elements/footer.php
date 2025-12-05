@@ -13,11 +13,9 @@
                                             <!-- Content  -->
                                             <div class="tc-footer__desc">
                                                 <h4 class="tc-footer__desc-title">
-                                                    Do you like what you see?
+                                                We are here to help you.
                                                 </h4>
-                                                <p class="tc-footer__desc-text">
-                                                    Do you like what you see?
-                                                </p>
+                                                
 
                                                 <a href="blog-grid-2column.html" class="tc-footer__desc-btn transparent-btn">
                                                     Let’s Talk
@@ -41,8 +39,8 @@
                                                 <li><a href="about.php">About Us</a></li>
                                                 <li><a href="contact.php">Contact Us</a></li>
                                                 <!-- <li><a href="blog.php">Our Blog</a></li> -->
-                                                <li><a href="projects.php">Projects</a></li>
-                                                <li><a href="services.php">Our Services</a></li>
+                                                <!-- <li><a href="projects.php">Projects</a></li> -->
+                                                <li><a href="index.php#features">Our Features</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -51,9 +49,8 @@
                                         <div class="tc-footer__widget about-links">
                                             <h3 class="tc-footer__widget-title">Projects</h3>
                                             <ul class="tc-footer__widget-links">
-                                                <li><a href="contact.html">Latest Launch</a></li>
-                                                <li><a href="contact.html">Ongoing Project</a></li>
-                                                <li><a href="contact.html">Completed Projects</a></li>
+                                                <li><a href="palm-haya.php">Palm Haya</a></li>
+                                                <li><a href="harmony.php">Harmony</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -67,7 +64,7 @@
                                             </div>
                                             <div class="mb-2">
                                             <h4 class="tc-footer__widget-title mb-0">Phone</h4>
-                                            <p class="tc-footer__widget-text">+971 50 123 4567</p>
+                                            <p class="tc-footer__widget-text">+92 300 1234567</p>
                                             </div>
                                             <div class="mb-2">
                                                 <h4 class="tc-footer__widget-title mb-0">Address</h4>

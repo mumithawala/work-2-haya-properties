@@ -614,9 +614,8 @@
 \tPalm Haya CTA
 ==============================================================================================*/
 .tc-project-cta {
-  background: radial-gradient(circle at top left, rgba(205, 164, 72, 0.18), transparent 40%),
-    radial-gradient(circle at bottom right, rgba(208, 255, 113, 0.15), transparent 45%),
-    #0f172a;
+  /* Let the page/background color show for the full-width section */
+  background: transparent;
 }
 .tc-project-cta__inner {
   position: relative;
@@ -625,7 +624,10 @@
   overflow: hidden;
   text-align: center;
   color: var(--white-color);
-  background: rgba(255, 255, 255, 0.02);
+  /* Move the CTA background into the inner container instead of the whole section */
+  background: radial-gradient(circle at top left, rgba(205, 164, 72, 0.18), transparent 40%),
+    radial-gradient(circle at bottom right, rgba(208, 255, 113, 0.15), transparent 45%),
+    #0f172a;
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 40px 120px rgba(15, 23, 42, 0.45);
   backdrop-filter: blur(4px);

@@ -17,7 +17,7 @@
     <title>Haya Properties</title>
 
     <meta name="description"
-        content="Haya Properties is a growing real estate development company based in Ahmedabad, established in 2020 with a commitment to building modern, sustainable, and value-driven properties. We specialize in both residential and commercial developments, focusing on architectural excellence, premium materials, and long-term quality." />
+        content="Haya Properties is a growing real estate development company based in Ahmedabad, established in 2016 with a commitment to building modern, sustainable, and value-driven properties. We specialize in both residential and commercial developments, focusing on architectural excellence, premium materials, and long-term quality." />
     <meta name="keywords"
         content="Haya Properties, real estate, Ahmedabad, residential, commercial, development, architecture, premium materials, long-term quality" />
 
@@ -25,7 +25,7 @@
     <meta property="og:site_name" content="Haya Properties" />
     <meta property="og:title" content="Haya Properties" />
     <meta property="og:description"
-        content="Haya Properties is a growing real estate development company based in Ahmedabad, established in 2020 with a commitment to building modern, sustainable, and value-driven properties. We specialize in both residential and commercial developments, focusing on architectural excellence, premium materials, and long-term quality." />
+        content="Haya Properties is a growing real estate development company based in Ahmedabad, established in 2016 with a commitment to building modern, sustainable, and value-driven properties. We specialize in both residential and commercial developments, focusing on architectural excellence, premium materials, and long-term quality." />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en" />
     <meta property="og:url" content="https://haya-properties.com" />
@@ -201,9 +201,9 @@
                                 <div class="tc-about-cont__widget wow fadeInUp" data-wow-delay=".3s"
                                     data-wow-duration="1s">
                                     <div class="tc-about-number">
-                                        <h2 class="big-number"><span class="counter">15</span><small>+</small></h2>
+                                        <h2 class="big-number"><span class="counter">10</span><small>+</small></h2>
                                         <p class="number-text">
-                                        Successfully handed over 15+ quality real estate projects.
+                                        Successfully handed over 10+ quality real estate projects.
                                         </p>
                                     </div>
                                 </div>
@@ -212,7 +212,7 @@
                                     data-wow-duration="1s">
                                     <div class="tc-about-desc">
                                         <p class="desc-text">
-                                        Haya Properties is a growing real estate development company based in Ahmedabad, established in 2020 with a commitment to building modern, sustainable, and value-driven properties. We specialize in both residential and commercial developments, focusing on architectural excellence, premium materials, and long-term quality.
+                                        Haya Properties is a growing real estate development company based in Ahmedabad, established in 2016 with a commitment to building modern, sustainable, and value-driven properties. We specialize in both residential and commercial developments, focusing on architectural excellence, premium materials, and long-term quality.
                                         </p>
                                         <div class="tc-about-btn">
                                             <a href="about.php" class="theme-btn">Know More</a>
@@ -294,9 +294,46 @@
                                     <h4 class="tc-latest-project__title">Palm Haya</h4>
                                 </div>
                             </div>
+                        </div> 
+                        <div class="swiper-slide swiper-slide-new">
+                            <div class="tc-latest-project__item compact bg-img" style="background-image: url('assets/images/projects/3.jpg');">
+                                <span class="tc-latest-project__badge exterior">Exterior</span>
+                                <div class="tc-latest-project__content">
+                                    <p class="tc-latest-project__label">
+                                        <span>Commercial </span>
+                                        <span>Residential</span>
+                                    </p>
+                                    <h4 class="tc-latest-project__title">Harmony</h4>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="swiper-slide swiper-slide-new">
+                            <div class="tc-latest-project__item compact bg-img" style="background-image: url('assets/images/projects/5.jpg');">
+                                <span class="tc-latest-project__badge exterior">Exterior</span>
+                                <div class="tc-latest-project__content">
+                                    <p class="tc-latest-project__label">
+                                        <span>Commercial </span>
+                                        <span>Residential</span>
+                                    </p>
+                                    <h4 class="tc-latest-project__title">Harmony</h4>
+                                </div>
+                            </div>
+                        </div> 
+                        
+                        <div class="swiper-slide swiper-slide-new">
+                            <div class="tc-latest-project__item compact bg-img" style="background-image: url('assets/images/projects/6.jpg');">
+                                <span class="tc-latest-project__badge exterior">Exterior</span>
+                                <div class="tc-latest-project__content">
+                                    <p class="tc-latest-project__label">
+                                        <span>Commercial </span>
+                                        <span>Residential</span>
+                                    </p>
+                                    <h4 class="tc-latest-project__title">Harmony</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="swiper-pagination-new"></div>
+                    <!-- <div class="swiper-pagination-new"></div> -->
                 </div>
                 </section>
 
@@ -395,8 +432,8 @@
 
 
                 <!-- Start Feature Highlight Area -->
-                <section class="tc-feature-highlight section-gap">
-                    <div class="container">
+                <section class="tc-feature-highlight section-gap" id="features">
+                    <div class="container" >
                         <div class="tc-feature-highlight__head tc-sec-head text-center">
                             <p class="tc-sec-head__sm-title mb-0"><span class="dot"></span>Why Choose Us</p>
                             <h3 class="tc-sec-head__title has_word_anim">
@@ -634,18 +671,18 @@
                                         <div class="tc-portfolio__cover hover-layer-1">
                                             <!-- Image  -->
                                             <div class="tc-portfolio__img">
-                                                <img src="assets/images/portfolio/portfolio-1.png"
+                                                <img src="assets/images/projects/12.jpeg"
                                                     alt="portfolio-img" />
                                             </div>
 
                                             <!-- Category  -->
                                             <div class="tc-portfolio__category">
-                                                <a href="portfolio-details.html">Experiment</a>
-                                                <a href="portfolio-details.html">Technology</a>
+                                                <a href="portfolio-details.html">Residential</a>
+                                                <a href="portfolio-details.html">commercial</a>
                                             </div>
 
                                             <!-- Action  -->
-                                            <a href="portfolio-details.html" class="tc-portfolio__btn">
+                                            <a href="harmony.php" class="tc-portfolio__btn">
                                                 <svg width="41" height="41" viewBox="0 0 41 41" fill="none"
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <path
@@ -659,11 +696,10 @@
                                         <!-- Content  -->
                                         <div class="tc-portfolio__content">
                                             <ul class="tc-portfolio__meta">
-                                                <li>2026</li>
-                                                <li>Gary Neville</li>
+                                                <li>2016</li>
+                                                <li>Harmony by Haya Properties</li>
                                             </ul>
-                                            <a href="portfolio-details.html" class="tc-portfolio__title">Refreshing Gary
-                                                Neville's Digital Presence</a>
+                                            <a href="harmony.php" class="tc-portfolio__title">Harmony</a>
                                         </div>
                                     </div>
                                 </div>
@@ -683,18 +719,18 @@
                                         <div class="tc-portfolio__cover hover-layer-1">
                                             <!-- Image  -->
                                             <div class="tc-portfolio__img">
-                                                <img src="assets/images/portfolio/portfolio-2.png"
+                                                <img src="assets/images/projects/front.jpg"
                                                     alt="portfolio-img" />
                                             </div>
 
                                             <!-- Category  -->
                                             <div class="tc-portfolio__category">
-                                                <a href="portfolio-details.html">Experiment</a>
-                                                <a href="portfolio-details.html">Technology</a>
+                                                <a href="portfolio-details.html">Commercial</a>
+                                                <a href="portfolio-details.html">Residential Plots</a>
                                             </div>
 
                                             <!-- Action  -->
-                                            <a href="portfolio-details.html" class="tc-portfolio__btn">
+                                            <a href="palm-haya.php" class="tc-portfolio__btn">
                                                 <svg width="41" height="41" viewBox="0 0 41 41" fill="none"
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <path
@@ -708,217 +744,34 @@
                                         <!-- Content  -->
                                         <div class="tc-portfolio__content">
                                             <ul class="tc-portfolio__meta">
-                                                <li>2026</li>
-                                                <li>Gary Neville</li>
+                                                <li>2024</li>
+                                                <li>Palm Haya by Haya Properties</li>
                                             </ul>
-                                            <a href="portfolio-details.html" class="tc-portfolio__title">Bran Identity
-                                                Design for Startup</a>
+                                            <a href="palm-haya.php" class="tc-portfolio__title">Palm Haya</a>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="col-lg-6 col-md-6 col-12">
-                                    <!-- Single Portfolio  -->
-                                    <div class="tc-portfolio__item item-3 hobble wow fadeInUp" data-wow-delay=".3s"
-                                        data-wow-duration="1s">
-                                        <div class="tc-portfolio__cover hover-layer-1">
-                                            <!-- Image  -->
-                                            <div class="tc-portfolio__img">
-                                                <img src="assets/images/portfolio/portfolio-3.png"
-                                                    alt="portfolio-img" />
-                                            </div>
-
-                                            <!-- Category  -->
-                                            <div class="tc-portfolio__category">
-                                                <a href="portfolio-details.html">Experiment</a>
-                                                <a href="portfolio-details.html">Technology</a>
-                                            </div>
-
-                                            <!-- Action  -->
-                                            <a href="portfolio-details.html" class="tc-portfolio__btn">
-                                                <svg width="41" height="41" viewBox="0 0 41 41" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M10.3008 30.1748L30.3008 10.1748M30.3008 10.1748H15.3008M30.3008 10.1748V25.1748"
-                                                        stroke="black" stroke-width="3" stroke-linecap="round"
-                                                        stroke-linejoin="round" />
-                                                </svg>
-                                            </a>
-                                        </div>
-
-                                        <!-- Content  -->
-                                        <div class="tc-portfolio__content">
-                                            <ul class="tc-portfolio__meta">
-                                                <li>2026</li>
-                                                <li>Zenifer Lofez</li>
-                                            </ul>
-                                            <a href="portfolio-details.html" class="tc-portfolio__title">Packaging
-                                                Mockup for Startup</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6 col-md-6 col-12">
-                                    <!-- Single Portfolio  -->
-                                    <div class="tc-portfolio__item item-4 hobble wow fadeInUp" data-wow-delay=".5s"
-                                        data-wow-duration="1s">
-                                        <div class="tc-portfolio__cover hover-layer-1">
-                                            <!-- Image  -->
-                                            <div class="tc-portfolio__img">
-                                                <img src="assets/images/portfolio/portfolio-4.png"
-                                                    alt="portfolio-img" />
-                                            </div>
-
-                                            <!-- Category  -->
-                                            <div class="tc-portfolio__category">
-                                                <a href="portfolio-details.html">Experiment</a>
-                                                <a href="portfolio-details.html">Technology</a>
-                                            </div>
-
-                                            <!-- Action  -->
-                                            <a href="portfolio-details.html" class="tc-portfolio__btn">
-                                                <svg width="41" height="41" viewBox="0 0 41 41" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M10.3008 30.1748L30.3008 10.1748M30.3008 10.1748H15.3008M30.3008 10.1748V25.1748"
-                                                        stroke="black" stroke-width="3" stroke-linecap="round"
-                                                        stroke-linejoin="round" />
-                                                </svg>
-                                            </a>
-                                        </div>
-
-                                        <!-- Content  -->
-                                        <div class="tc-portfolio__content">
-                                            <ul class="tc-portfolio__meta">
-                                                <li>2026</li>
-                                                <li>Terio Zemip</li>
-                                            </ul>
-                                            <a href="portfolio-details.html" class="tc-portfolio__title">Crafted Payment
-                                                Get-way</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6 col-md-6 col-12">
-                                    <!-- Single Portfolio  -->
-                                    <div class="tc-portfolio__item item-5 hobble wow fadeInUp" data-wow-delay=".3s"
-                                        data-wow-duration="1s">
-                                        <div class="tc-portfolio__cover hover-layer-1">
-                                            <!-- Image  -->
-                                            <div class="tc-portfolio__img">
-                                                <img src="assets/images/portfolio/portfolio-5.png"
-                                                    alt="portfolio-img" />
-                                            </div>
-
-                                            <!-- Category  -->
-                                            <div class="tc-portfolio__category">
-                                                <a href="portfolio-details.html">Experiment</a>
-                                                <a href="portfolio-details.html">Technology</a>
-                                            </div>
-
-                                            <!-- Action  -->
-                                            <a href="portfolio-details.html" class="tc-portfolio__btn">
-                                                <svg width="41" height="41" viewBox="0 0 41 41" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M10.3008 30.1748L30.3008 10.1748M30.3008 10.1748H15.3008M30.3008 10.1748V25.1748"
-                                                        stroke="black" stroke-width="3" stroke-linecap="round"
-                                                        stroke-linejoin="round" />
-                                                </svg>
-                                            </a>
-                                        </div>
-
-                                        <!-- Content  -->
-                                        <div class="tc-portfolio__content">
-                                            <ul class="tc-portfolio__meta">
-                                                <li>2025</li>
-                                                <li>Andrio Gethary</li>
-                                            </ul>
-                                            <a href="portfolio-details.html" class="tc-portfolio__title">Reimagining the
-                                                built environment</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6 col-md-6 col-12">
-                                    <!-- Single Portfolio  -->
-                                    <div class="tc-portfolio__item item-6 hobble wow fadeInUp" data-wow-delay=".5s"
-                                        data-wow-duration="1s">
-                                        <div class="tc-portfolio__cover hover-layer-1">
-                                            <!-- Image  -->
-                                            <div class="tc-portfolio__img">
-                                                <img src="assets/images/portfolio/portfolio-6.png"
-                                                    alt="portfolio-img" />
-                                            </div>
-
-                                            <!-- Category  -->
-                                            <div class="tc-portfolio__category">
-                                                <a href="portfolio-details.html">Experiment</a>
-                                                <a href="portfolio-details.html">Technology</a>
-                                            </div>
-
-                                            <!-- Action  -->
-                                            <a href="portfolio-details.html" class="tc-portfolio__btn">
-                                                <svg width="41" height="41" viewBox="0 0 41 41" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M10.3008 30.1748L30.3008 10.1748M30.3008 10.1748H15.3008M30.3008 10.1748V25.1748"
-                                                        stroke="black" stroke-width="3" stroke-linecap="round"
-                                                        stroke-linejoin="round" />
-                                                </svg>
-                                            </a>
-                                        </div>
-
-                                        <!-- Content  -->
-                                        <div class="tc-portfolio__content">
-                                            <ul class="tc-portfolio__meta">
-                                                <li>2025</li>
-                                                <li>Mellar Pitter</li>
-                                            </ul>
-                                            <a href="portfolio-details.html" class="tc-portfolio__title">Forma bringing
-                                                architectural ideas to life</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6 col-12">
-                                    <!-- CTA  -->
-                                    <div class="tc-portfolio-cta bg-img wow fadeInUp" data-wow-delay=".3s"
-                                        data-wow-duration="1s"
-                                        style="background-image: url('assets/images/cta/cta-bg.png');">
-                                        <div class="tc-portfolio-cta__cont">
-                                            <h4 class="tc-portfolio-cta__title">
-                                                Like what you see?
-                                            </h4>
-                                            <p class="tc-portfolio-cta__text">
-                                                Connect with us & let’s build something cool together
-                                            </p>
-                                            <div class="tc-portfolio-cta__btn">
-                                                <a href="contact.html" class="theme-btn">Contact With Us</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </section>
                 <!-- End Portfolio Area -->
 
-                <section class="tc-features tc-features--style2 py-3 pb-0">
+                <section class="tc-features tc-features--style2 py-3 pb-5">
                             <div class="container d-flex justify-content-center">
                                 <div class="tc-features__wrapper ">
                                     <!-- Single Features  -->
                                     <div class="tc-feature__item text-center">
                                         <span class="tc-feature__label">Landmarks</span>
-                                        <h3 class="tc-feature__title"><span class="counter">250</span>+</h3>
+                                        <h3 class="tc-feature__title"><span class="counter">5</span>+</h3>
                                         
                                     </div>
 
                                     <!-- Single Features  -->
                                     <div class="tc-feature__item text-center">
                                         <span class="tc-feature__label">Units Sold</span>
-                                        <h3 class="tc-feature__title"><span class="counter">55</span>+</h3>
+                                        <h3 class="tc-feature__title"><span class="counter">500</span>+</h3>
                                         <!-- <p class="tc-feature__text">
                                             Over 55% of our projects are referrals from clients already with us. Our clients love to spread the love far and wide.
                                         </p> -->
@@ -926,8 +779,8 @@
 
                                     <!-- Single Features  -->
                                     <div class="tc-feature__item text-center">
-                                        <span class="tc-feature__label">Lacs of Sq.Ft. Developed</span>
-                                        <h3 class="tc-feature__title"><span class="counter">30</span>+</h3>
+                                        <span class="tc-feature__label">Sq.Ft. Developed</span>
+                                        <h3 class="tc-feature__title"><span class="">1M</span>+</h3>
                                         <!-- <p class="tc-feature__text">
                                             Recognizing extraordinary accomplishments, honoring remarkable milestones, celebrating exceptional excellence.
                                         </p> -->       
@@ -948,7 +801,7 @@
                                     <div class="tc-sec-head">
                                         <p class="tc-sec-head__sm-title"><span class="dot"></span>Testimonials</p>
                                         <h3 class="tc-sec-head__title has_word_anim">
-                                            What our users <br />
+                                            What our Clients <br />
                                             say about us.
                                         </h3>
                                     </div>
@@ -996,8 +849,7 @@
                                                 </defs>
                                             </svg>
                                             <p class="tc-testimonial__text">
-                                                Our content management system of choice is Craft CMS rather than
-                                                WordPress, allowing you to manage your website pages
+                                            Haya Properties delivered exactly what they promised—quality, transparency, and timely execution. Their commitment to excellence in every stage of construction truly sets them apart
                                             </p>
                                         </div>
                                         <div class="tc-testimonial__btm">
@@ -1010,10 +862,10 @@
 
                                                 <div class="tc-testimonial__info">
                                                     <h5 class="tc-testimonial__name">
-                                                        Assistant Manager
+                                                        Mr. Ahamd
                                                     </h5>
                                                     <p class="tc-testimonial__designation">
-                                                        Assistant Manager
+                                                        Customer
                                                     </p>
                                                 </div>
                                             </div>
@@ -1038,7 +890,7 @@
                                                     </li>
                                                 </ul>
                                                 <p class="tc-testimonial__rattings-text">
-                                                    5 Start Rating
+                                                    5 Star Rating
                                                 </p>
                                             </div>
                                         </div>
@@ -1062,9 +914,7 @@
                                                 </defs>
                                             </svg>
                                             <p class="tc-testimonial__text">
-                                                Our content management system of choice is Craft CMS rather than
-                                                WordPress, allowing you to manage your website pages
-                                            </p>
+                                            We chose Haya Properties for our commercial project, and it was the best decision. Their planning, engineering expertise, and attention to detail reflect true professionalism.                                            </p>
                                         </div>
                                         <div class="tc-testimonial__btm">
                                             <!-- Author  -->
@@ -1076,10 +926,10 @@
 
                                                 <div class="tc-testimonial__info">
                                                     <h5 class="tc-testimonial__name">
-                                                        Assistant Manager
+                                                    Salman Baig
                                                     </h5>
                                                     <p class="tc-testimonial__designation">
-                                                        Assistant Manager
+                                                        Business Owner
                                                     </p>
                                                 </div>
                                             </div>
@@ -1104,7 +954,7 @@
                                                     </li>
                                                 </ul>
                                                 <p class="tc-testimonial__rattings-text">
-                                                    5 Start Rating
+                                                    5 Star Rating
                                                 </p>
                                             </div>
                                         </div>
@@ -1128,8 +978,7 @@
                                                 </defs>
                                             </svg>
                                             <p class="tc-testimonial__text">
-                                                Our content management system of choice is Craft CMS rather than
-                                                WordPress, allowing you to manage your website pages
+                                            The team at Haya Properties is reliable and knowledgeable. They understand modern infrastructure needs and execute projects with perfection.
                                             </p>
                                         </div>
                                         <div class="tc-testimonial__btm">
@@ -1142,10 +991,9 @@
 
                                                 <div class="tc-testimonial__info">
                                                     <h5 class="tc-testimonial__name">
-                                                        Assistant Manager
-                                                    </h5>
+Imran Siddiqui                                                    </h5>
                                                     <p class="tc-testimonial__designation">
-                                                        Assistant Manager
+                                                        Business Owner
                                                     </p>
                                                 </div>
                                             </div>
@@ -1170,7 +1018,7 @@
                                                     </li>
                                                 </ul>
                                                 <p class="tc-testimonial__rattings-text">
-                                                    5 Start Rating
+                                                    5 Star Rating
                                                 </p>
                                             </div>
                                         </div>
@@ -1418,7 +1266,7 @@
       speed: 900,
       loop: false,
       effect: 'slide',
-      allowTouchMove: true,
+    //   allowTouchMove: true,
       pagination: {
         el: '.swiper-pagination-new',
         clickable: true,
@@ -1428,10 +1276,10 @@
         sensitivity: 1,
         releaseOnEdges: true,
       },
-      autoplay: {
-        delay: 3200,
-        disableOnInteraction: false,
-      },
+    //   autoplay: {
+    //     delay: 3200,
+    //     disableOnInteraction: false,
+    //   },
       on: {
         slideChange: function() {
           if (this.activeIndex >= totalHeroSlides - 1) {
@@ -1502,12 +1350,12 @@
           spaceBetween: 30,
           loop: false,
           speed: 800,
-          autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-          },
+        //   autoplay: {
+        //     delay: 3000,
+        //     disableOnInteraction: false,
+        //   },
           effect: 'slide',
-          allowTouchMove: true,
+        //   allowTouchMove: true,
           mousewheel: {
             enabled: true,
             sensitivity: 1,
@@ -1567,6 +1415,56 @@
       } else {
         setTimeout(initLatestProjectSlider, 500);
       }
+    })();
+    </script>
+
+    <!-- Handle hash navigation with ScrollSmoother -->
+    <script>
+    (function() {
+      function scrollToHash() {
+        if (window.location.hash) {
+          const hash = window.location.hash.substring(1);
+          const target = document.getElementById(hash);
+          if (target) {
+            // Wait for ScrollSmoother to be ready
+            function attemptScroll() {
+              if (typeof ScrollSmoother !== 'undefined' && ScrollSmoother.get) {
+                const smoother = ScrollSmoother.get();
+                if (smoother) {
+                  smoother.scrollTo(target, true, "top top");
+                  return true;
+                }
+              }
+              return false;
+            }
+            
+            // Try immediately
+            if (!attemptScroll()) {
+              // If ScrollSmoother not ready, wait a bit and try again
+              setTimeout(function() {
+                if (!attemptScroll()) {
+                  // Fallback to native scroll
+                  setTimeout(function() {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                  }, 300);
+                }
+              }, 500);
+            }
+          }
+        }
+      }
+      
+      // Wait for page to fully load including ScrollSmoother initialization
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function() {
+          setTimeout(scrollToHash, 800);
+        });
+      } else {
+        setTimeout(scrollToHash, 800);
+      }
+      
+      // Also handle hash changes after page load
+      window.addEventListener('hashchange', scrollToHash);
     })();
     </script>
 
