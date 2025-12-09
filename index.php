@@ -11,7 +11,7 @@
     <meta name="robots" content="all" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
 
     <!-- Site Title -->
     <title>Haya Properties</title>
@@ -161,7 +161,7 @@
             <main>
                 <section class="hero-section">
                     <video autoplay muted loop playsinline class="hero-video">
-                        <source src="assets/videos/v2.mp4" type="video/mp4" />
+                        <source src="assets/videos/v7.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
 

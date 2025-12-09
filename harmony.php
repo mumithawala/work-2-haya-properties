@@ -12,8 +12,8 @@
         <meta name="robots" content="all" />
 
         <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="assets/images/favicon.svg" />
-
+        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+            
         <!-- Site Title -->
         <title>Harmony by Haya Properties</title>
 

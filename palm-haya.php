@@ -12,25 +12,25 @@
         <meta name="robots" content="all" />
 
         <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="assets/images/favicon.svg" />
+        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
 
         <!-- Site Title -->
-        <title>Hulo - Creative Digital Agency HTML Template</title>
+        <title>Haya Properties - Palm Haya</title>
 
         <meta name="description" content="Boost your brand with our cutting-edge digital solutions. We create stunning websites, engaging content, and innovative marketing strategies to elevate your business." />
         <meta name="keywords" content="creative digital agency, web design, branding, digital marketing, SEO, social media marketing, UI/UX design, content creation, business growth" />
 
         <!-- Meta OG Tags -->
-        <meta property="og:site_name" content="Hulo - Creative Digital Agency" />
-        <meta property="og:title" content="Hulo - Creative Digital Agency HTML Template" />
-        <meta property="og:description" content="We help brands thrive in the digital world with expert web design, marketing, and branding services. Elevate your online presence with Hulo." />
+        <meta property="og:site_name" content="Haya Properties - Palm Haya" />
+        <meta property="og:title" content="Haya Properties - Palm Haya" />
+            <meta property="og:description" content="Palm Haya is a thoughtfully planned development offering residential plots and commercial offices in a premium, fast-growing location. Designed to give you the freedom to build your dream home or establish your business, the project combines connectivity, convenience, and modern infrastructure. With wide roads, green surroundings, and essential amenities, Palm Haya sets the foundation for a vibrant community and future-ready growth." />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en" />
-        <meta property="og:url" content="your url" />
-        <meta property="og:image" content="your image" />
+        <meta property="og:url" content="https://haya-properties.com/palm-haya" />
+        <meta property="og:image" content="https://haya-properties.com/assets/images/projects/front.jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content="Creative Digital Agency - Hulo" />
+        <meta property="og:image:alt" content="Haya Properties - Palm Haya" />
 
         <!-- All CSS -->
         <link rel="stylesheet" href="assets/plugins/css/bootstrap.min.css" />

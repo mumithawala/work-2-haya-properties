@@ -2,11 +2,11 @@
                     <div class="tc-footer__inner bg-black">
                         <div class="container">
                             <div class="tc-footer__top">
-                                <div class="row">
+                                <div class="row mobile-row">
                                     <div class="col-lg-4 col-xl-4 col-md-6 col-12">
                                         <div class="tc-footer__widget about">
                                             <!-- Logo  -->
-                                            <a href="index-2.html" class="tc-footer__logo">
+                                            <a href="index.php" class="tc-footer__logo">
                                                 <img src="assets/images/logo.PNG" alt="logo"  width="200px"/>
                                             </a>
 
@@ -17,7 +17,7 @@
                                                 </h4>
                                                 
 
-                                                <a href="blog-grid-2column.html" class="tc-footer__desc-btn transparent-btn">
+                                                <a href="contact.php" class="tc-footer__desc-btn transparent-btn">
                                                     Let’s Talk
                                                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path
@@ -98,7 +98,7 @@
 
                             <div class="tc-footer__bottom">
                                 <h3 class="tc-footer__big-text">Haya Properties</h3>
-                                <p class="tc-footer__copyright">© All Right Reserved by <a href="index-2.html">Haya Properties</a> - 2025</p>
+                                <p class="tc-footer__copyright">© All Right Reserved by <a href="index.php">Haya Properties</a> - 2025</p>
                             </div>
                         </div>
                     </div>

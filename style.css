@@ -73,11 +73,10 @@
   font-size: 1.2rem;
   margin-bottom: 30px;
   line-height: 1.6;
-  color: #acacac;
+  color: var(--white-color);
 }
-
 .hero-btn {
-  background: #f39c12;
+  background: var(--primary-color);
   color: #fff;
   padding: 14px 32px;
   font-size: 1rem;
@@ -88,7 +87,7 @@
 }
 
 .hero-btn:hover {
-  background: #e67e22;
+  background: var(--white-color);
 }
 
 
@@ -122,6 +121,10 @@
   }
 }
 @media only screen and (max-width: 767px) {
+
+  .mobile-row {
+    text-align: center;
+  }
   .swiper-new {
     height: 90vh;
     padding-bottom: 24px;
