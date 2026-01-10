@@ -212,7 +212,7 @@
 
                         <section class="tc-video wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                         <div class="container">
-                            <div class="tc-video__inner bg-img" style="background-image: url('assets/images/video/video-bg.png');">
+                            <div class="tc-video__inner bg-img" style="background-image: url('assets/images/founder/f2.jpeg');">
                                 <!-- Content  -->
                                 <div class="tc-video__content">
                                     <img class="text-bg" src="assets/images/video/text-bg.png" alt="text-bg" />

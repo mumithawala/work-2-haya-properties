@@ -17,13 +17,13 @@
         <!-- Site Title -->
         <title>Harmony by Haya Properties</title>
 
-        <meta name="description" content="Harmony by Haya Properties is a thoughtfully planned development offering residential plots and commercial offices in a premium, fast-growing location. Designed to give you the freedom to build your dream home or establish your business, the project combines connectivity, convenience, and modern infrastructure. With wide roads, green surroundings, and essential amenities, Harmony by Haya Properties sets the foundation for a vibrant community and future-ready growth." />
-        <meta name="keywords" content="Harmony by Haya Properties, residential plots, commercial offices, premium location, connectivity, convenience, modern infrastructure, wide roads, green surroundings, essential amenities, vibrant community, future-ready growth" />
+        <meta name="description" content="Harmony by Haya Properties is a premium development offering luxurious flats and commercial shops in a prime, fast-growing location. Designed for modern living and thriving businesses, the project combines connectivity, convenience, and world-class infrastructure. With spacious apartments, premium commercial spaces, and comprehensive facilities, Harmony by Haya Properties delivers a complete lifestyle experience with all amenities for a vibrant community." />
+        <meta name="keywords" content="Harmony by Haya Properties, luxurious flats, commercial shops, premium apartments, modern infrastructure, connectivity, convenience, all facilities, world-class amenities, vibrant community, prime location" />
 
         <!-- Meta OG Tags -->
         <meta property="og:site_name" content="Harmony by Haya Properties" />
         <meta property="og:title" content="Harmony by Haya Properties" />
-        <meta property="og:description" content="Harmony by Haya Properties is a thoughtfully planned development offering residential plots and commercial offices in a premium, fast-growing location. Designed to give you the freedom to build your dream home or establish your business, the project combines connectivity, convenience, and modern infrastructure. With wide roads, green surroundings, and essential amenities, Harmony by Haya Properties sets the foundation for a vibrant community and future-ready growth." />
+        <meta property="og:description" content="Harmony by Haya Properties is a premium development offering luxurious flats and commercial shops in a prime, fast-growing location. Designed for modern living and thriving businesses, the project combines connectivity, convenience, and world-class infrastructure. With spacious apartments, premium commercial spaces, and comprehensive facilities, Harmony by Haya Properties delivers a complete lifestyle experience with all amenities for a vibrant community." />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en" />
         <meta property="og:url" content="https://haya-properties.com/harmony" />
@@ -88,7 +88,7 @@
                                         <!-- Project Info -->
                                         <div class="pd-info">
                                             <p class="text">
-                                            Palm Haya is a thoughtfully planned development offering residential plots and commercial offices in a premium, fast-growing location. Designed to give you the freedom to build your dream home or establish your business, the project combines connectivity, convenience, and modern infrastructure. With wide roads, green surroundings, and essential amenities, Palm Haya sets the foundation for a vibrant community and future-ready growth.
+                                            Harmony by Haya Properties is a premium development offering luxurious flats and commercial shops in a prime, fast-growing location. Designed for modern living and thriving businesses, the project combines connectivity, convenience, and world-class infrastructure. With spacious apartments, premium commercial spaces, and comprehensive facilities, Harmony delivers a complete lifestyle experience with all amenities for a vibrant community.
                                             </p>
 
                                           
@@ -112,18 +112,18 @@
                                         <!-- Details  -->
                                         <div class="project-details">
                                             <div class="tc-sec-head">
-                                                <p class="tc-sec-head__sm-title mb-0"><span class="dot"></span>Your Space, Your Future at Palm Haya</p>
+                                                <p class="tc-sec-head__sm-title mb-0"><span class="dot"></span>Your Space, Your Future at Harmony</p>
                                                 <h3 class="tc-sec-head__title">
-                                                Premium Plots and Modern Commercial Spaces.
+                                                Luxurious Flats and Premium Commercial Shops.
                                                 </h3>
                                             </div>
                                             <p>
-                                            Palm Haya brings together the best of residential and commercial development, creating a landmark destination ideal for both living and business. The residential plots offer the perfect canvas for building custom-designed homes surrounded by peaceful, well-planned infrastructure. Meanwhile, the commercial offices ensure great visibility, accessibility, and a professional environment suitable for growing businesses.                                            </p>
+                                            Harmony brings together the best of residential and commercial development, creating a landmark destination ideal for both living and business. The luxurious flats offer spacious, well-designed apartments with modern finishes, premium fixtures, and thoughtful layouts perfect for comfortable family living. Meanwhile, the commercial shops ensure great visibility, accessibility, and prime locations suitable for retail, restaurants, and thriving businesses.                                            </p>
 
                                             <br />
 
                                             <p>
-                                            Strategically located in a rapidly developing zone, Palm Haya promises strong future appreciation and a balanced lifestyle. With modern amenities, well-laid internal streets, underground utilities, and landscaped surroundings, the project is designed to deliver comfort, accessibility, and value for every investor.                                            </p>
+                                            Strategically located in a rapidly developing zone, Harmony promises strong future appreciation and a balanced lifestyle. With world-class amenities, comprehensive facilities, modern infrastructure, and landscaped surroundings, the project is designed to deliver comfort, convenience, and exceptional value for every resident and business owner.                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -148,15 +148,15 @@
                                             </svg>
                                         </div>
                                         <div class="tc-highlight-card__header">
-                                            <p>Residential Zone</p>
+                                            <p>Luxurious Flats</p>
                                             <h4>Curated for comfortable living</h4>
                                         </div>
                                         <ul class="tc-highlight-card__list">
-                                            <li>Well-demarcated residential plots</li>
-                                            <li>Independent home design flexibility</li>
-                                            <li>Landscaped surroundings</li>
-                                            <li>Streetlights & underground cabling</li>
-                                            <li>Water supply & drainage systems</li>
+                                            <li>Spacious, well-designed apartments</li>
+                                            <li>Premium finishes & modern fixtures</li>
+                                            <li>Thoughtful layouts & ample natural light</li>
+                                            <li>High-quality construction materials</li>
+                                            <li>Balconies with scenic views</li>
                                         </ul>
                                     </div>
 
@@ -169,14 +169,14 @@
                                             </svg>
                                         </div>
                                         <div class="tc-highlight-card__header">
-                                            <p>Commercial Zone</p>
+                                            <p>Commercial Shops</p>
                                             <h4>Ready for high-visibility business</h4>
                                         </div>
                                         <ul class="tc-highlight-card__list">
-                                            <li>Road-facing commercial units</li>
-                                            <li>Ideal for offices, retail, and services</li>
-                                            <li>High footfall potential</li>
-                                            <li>Ample parking zones</li>
+                                            <li>Prime road-facing commercial shops</li>
+                                            <li>Ideal for retail, restaurants, and services</li>
+                                            <li>High footfall potential & visibility</li>
+                                            <li>Ample parking zones for customers</li>
                                             <li>Business-friendly infrastructure</li>
                                         </ul>
                                     </div>
@@ -217,12 +217,12 @@
                                             <h4>Infrastructure that lasts</h4>
                                         </div>
                                         <ul class="tc-highlight-card__list">
-                                            <li>RCC boundary walls</li>
                                             <li>Premium construction materials</li>
                                             <li>Underground electrical & water lines</li>
-                                            <li>Leveling & drainage planning</li>
-                                            <li>Multiple plot size options</li>
+                                            <li>Modern plumbing & drainage systems</li>
+                                            <li>Multiple flat size options</li>
                                             <li>Quality street lighting</li>
+                                            <li>Fire safety & security systems</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -240,7 +240,7 @@
                                     <div class="tc-project-cta__content">
                                         <p class="eyebrow"><span class="dot dot-light"></span>Plan Your Visit</p>
                                         <h3>Grab Your High-Value Investment Now</h3>
-                                        <p>Our team will help you pick the right parcel, walk you through technical specs, and share construction-readiness details so you can start with confidence.</p>
+                                        <p>Our team will help you choose the perfect flat or commercial shop, walk you through all facilities and amenities, and share detailed specifications so you can make an informed decision with confidence.</p>
                                     </div>
 
                                     <div class="tc-project-cta__actions">

@@ -116,7 +116,7 @@
                         </li>
                         <li>
                             <i class="fi-rr-phone-call"></i>
-                            <a href="tel:+91 98250 00000">+91 98250 00000</a>
+                            <a href="tel:+91 7861051039">+91 7861051039</a>
                         </li>
                         <li>
                             <i class="fi-rr-envelope"></i>

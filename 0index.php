@@ -1244,9 +1244,12 @@ Imran Siddiqui                                                    </h5>
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
 
-<!-- Initialize Hero Vertical Swiper -->
+<!-- Initialize Hero Vertical Swiper with Mobile-Friendly Touch -->
 <script>
 (function(){
+  let heroSwiper = null;
+  let isInitialized = false;
+
   function initHeroVerticalSlider() {
     if(typeof Swiper === 'undefined') {
       setTimeout(initHeroVerticalSlider, 120);
@@ -1254,69 +1257,298 @@ Imran Siddiqui                                                    </h5>
     }
 
     const heroSliderEl = document.querySelector('.mySwiper-new');
-    if(!heroSliderEl) return;
+    if(!heroSliderEl || isInitialized) return;
 
     const totalHeroSlides = heroSliderEl.querySelectorAll('.swiper-slide-new').length;
-    let heroAutoplayCompleted = false;
 
-    const heroSwiper = new Swiper('.mySwiper-new', {
+    // Detect device type
+    const isMobile = window.innerWidth <= 991;
+    const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
+    // Default CSS for touch handling
+    heroSliderEl.style.overflow = 'hidden';
+    heroSliderEl.style.touchAction = 'pan-y';
+
+    // Swiper configuration with snap-to-slide behavior
+    const swiperConfig = {
       direction: 'vertical',
       slidesPerView: 1,
-      spaceBetween: 40,
-      speed: 900,
+      slidesPerGroup: 1, // Move one slide at a time
+      spaceBetween: 0, // No space between slides for full viewport
+      speed: isMobile ? 700 : 900,
       loop: false,
       effect: 'slide',
-    //   allowTouchMove: true,
+      allowTouchMove: true,
+      touchReleaseOnEdges: true, // Critical: allows page scroll when at edges
+      resistance: true,
+      resistanceRatio: 0.85,
+      touchRatio: 1,
+      simulateTouch: true,
+      grabCursor: !isMobile,
+      threshold: isMobile ? 20 : 15, // Minimum distance to trigger slide
+      longSwipesRatio: 0.25, // 25% of container to trigger slide
+      longSwipesMs: 400, // Time for long swipe detection
+      followFinger: true, // Follow finger movement
+      watchSlidesProgress: true, // Enable slide progress tracking
+      watchSlidesVisibility: true, // Track slide visibility
       pagination: {
         el: '.swiper-pagination-new',
         clickable: true,
       },
       mousewheel: {
-        enabled: true,
-        sensitivity: 1,
+        enabled: !isMobile && !isTouchDevice,
+        sensitivity: 1.2,
         releaseOnEdges: true,
+        forceToAxis: true,
+        eventsTarget: 'container',
+        invert: false,
       },
-    //   autoplay: {
-    //     delay: 3200,
-    //     disableOnInteraction: false,
-    //   },
+      keyboard: {
+        enabled: true,
+        onlyInViewport: true,
+      },
       on: {
-        slideChange: function() {
-          if (this.activeIndex >= totalHeroSlides - 1) {
-            this.autoplay.stop();
-            heroAutoplayCompleted = true;
+        init: function() {
+          // Set initial touch action and ensure proper height
+          heroSliderEl.style.touchAction = 'pan-y';
+          heroSliderEl.style.height = '100vh';
+          heroSliderEl.style.position = 'relative';
+          heroSliderEl.style.overflow = 'hidden';
+          
+          const wrapper = heroSliderEl.querySelector('.swiper-wrapper');
+          
+          // Get accurate viewport height (especially important on mobile)
+          const getViewportHeight = () => {
+            // Use visual viewport if available (more accurate on mobile with browser UI)
+            if (window.visualViewport && window.visualViewport.height) {
+              return window.visualViewport.height;
+            }
+            // Fallback options
+            return window.innerHeight || document.documentElement.clientHeight || 1000;
+          };
+          
+          const containerHeight = getViewportHeight();
+          const slides = heroSliderEl.querySelectorAll('.swiper-slide-new');
+          const slideCount = slides.length || totalHeroSlides;
+          
+          // First, ensure all slides have proper dimensions
+          slides.forEach((slide) => {
+            slide.style.height = containerHeight + 'px';
+            slide.style.minHeight = containerHeight + 'px';
+            slide.style.maxHeight = containerHeight + 'px';
+            slide.style.width = '100%';
+            slide.style.display = 'flex';
+            slide.style.flexShrink = '0';
+            slide.style.flexGrow = '0';
+          });
+          
+          // Then set wrapper height = total of all slides
+          if (wrapper && slideCount > 0) {
+            const totalHeight = slideCount * containerHeight;
+            wrapper.style.display = 'flex';
+            wrapper.style.flexDirection = 'column';
+            wrapper.style.height = totalHeight + 'px';
+            wrapper.style.minHeight = totalHeight + 'px';
+            wrapper.style.position = 'relative';
+            wrapper.style.transform = 'translate3d(0, 0, 0)'; // Enable hardware acceleration
           }
+          
+          // Let Swiper update with proper dimensions
+          this.update();
+          this.updateSize();
+          this.updateSlides();
+          this.updateSlidesClasses();
+        },
+        slideChangeTransitionStart: function() {
+          // Lock during transition for smooth snap
+          heroSliderEl.style.touchAction = 'pan-y';
+        },
+        slideChangeTransitionEnd: function() {
+          // Re-enable after transition
+          heroSliderEl.style.touchAction = 'pan-y';
+          
+          // Ensure proper snap after transition
+          this.update();
+          this.updateSlidesClasses();
+        },
+        slideChange: function() {
+          // Ensure proper behavior on slide change
+          heroSliderEl.style.touchAction = 'pan-y';
         },
         reachEnd: function() {
-          this.autoplay.stop();
-          heroAutoplayCompleted = true;
+          heroSliderEl.style.touchAction = 'pan-y';
+        },
+        reachBeginning: function() {
+          heroSliderEl.style.touchAction = 'pan-y';
+        },
+        touchStart: function(swiper, event) {
+          // Better touch handling for snapping
+          if (isMobile || isTouchDevice) {
+            heroSliderEl.style.touchAction = 'pan-y';
+          }
+        },
+        touchMove: function(swiper, event) {
+          // Allow swiper to handle snapping - only block at very edges
+          if (isMobile || isTouchDevice) {
+            // Keep allowTouchMove enabled for snapping to work
+            swiper.allowTouchMove = true;
+          }
+        },
+        touchEnd: function() {
+          // Always re-enable after touch ends for next interaction
+          this.allowTouchMove = true;
+          heroSliderEl.style.touchAction = 'pan-y';
+        },
+        transitionStart: function() {
+          // Ensure smooth transition
+          heroSliderEl.style.touchAction = 'none';
+        },
+        transitionEnd: function() {
+          // Re-enable after transition completes and ensure snap
+          heroSliderEl.style.touchAction = 'pan-y';
+          this.update();
+          this.updateSlidesClasses();
         },
       },
+    };
+
+    heroSwiper = new Swiper('.mySwiper-new', swiperConfig);
+    isInitialized = true;
+
+    // Force Swiper to recalculate sizes after initialization
+    setTimeout(() => {
+      if (heroSwiper) {
+        // Get accurate viewport height (especially important on mobile)
+        const getViewportHeight = () => {
+          if (window.visualViewport && window.visualViewport.height) {
+            return window.visualViewport.height;
+          }
+          return window.innerHeight || document.documentElement.clientHeight || 1000;
+        };
+        
+        const containerHeight = getViewportHeight();
+        const wrapper = heroSliderEl.querySelector('.swiper-wrapper');
+        
+        // Get actual slide count from DOM (most reliable)
+        const actualSlides = heroSliderEl.querySelectorAll('.swiper-slide-new');
+        const actualSlideCount = actualSlides.length || totalHeroSlides;
+        
+        if (wrapper && actualSlideCount > 0) {
+          // Calculate and set wrapper height = total of all slides
+          const expectedHeight = actualSlideCount * containerHeight;
+          
+          // Force wrapper height to enable scrolling through all slides
+          wrapper.style.height = expectedHeight + 'px';
+          wrapper.style.minHeight = expectedHeight + 'px';
+          
+          // Ensure all slides maintain proper height
+          actualSlides.forEach((slide) => {
+            slide.style.height = containerHeight + 'px';
+            slide.style.minHeight = containerHeight + 'px';
+            slide.style.maxHeight = containerHeight + 'px';
+          });
+        }
+        
+        // Update Swiper with proper dimensions
+        heroSwiper.update();
+        heroSwiper.updateSize();
+        heroSwiper.updateSlides();
+        heroSwiper.updateSlidesClasses();
+      }
+    }, isMobile ? 600 : 200); // Longer delay on mobile to account for browser UI
+    
+    // Handle window resize to recalculate wrapper height
+    let resizeTimer;
+    window.addEventListener('resize', function() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(function() {
+        if (heroSwiper && heroSliderEl) {
+          const containerHeight = window.innerHeight;
+          const slideCount = heroSwiper.slides ? heroSwiper.slides.length : totalHeroSlides;
+          const wrapper = heroSliderEl.querySelector('.swiper-wrapper');
+          
+          if (wrapper && slideCount > 0) {
+            wrapper.style.height = (slideCount * containerHeight) + 'px';
+            heroSwiper.updateSize();
+            heroSwiper.update();
+          }
+        }
+      }, 250);
     });
 
-    heroSwiper.autoplay.stop();
-
-    const heroSection = document.querySelector('.swiper-new');
-    if (heroSection && 'IntersectionObserver' in window) {
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting && entry.intersectionRatio >= 0.85) {
-            if (!heroAutoplayCompleted) {
-              heroSwiper.autoplay.start();
-            }
-          } else {
-            heroSwiper.autoplay.stop();
-          }
-        });
-      }, {
-        threshold: [0.5, 0.7, 0.85],
-      });
-
-      observer.observe(heroSection);
-    } else {
+    // Enhanced mobile touch handling - ensure wrapper height is set correctly
+    if (isMobile || isTouchDevice) {
+      // On mobile, ensure wrapper height is properly calculated after a delay
+      // This accounts for mobile browser UI (address bar) that affects viewport height
       setTimeout(() => {
-        if (!heroAutoplayCompleted) heroSwiper.autoplay.start();
-      }, 700);
+        const wrapper = heroSliderEl.querySelector('.swiper-wrapper');
+        const actualSlides = heroSliderEl.querySelectorAll('.swiper-slide-new');
+        const slideCount = actualSlides.length || totalHeroSlides;
+        
+        // Get accurate viewport height on mobile (accounting for browser UI)
+        const getMobileViewportHeight = () => {
+          // Use visual viewport if available (more accurate on mobile)
+          if (window.visualViewport && window.visualViewport.height) {
+            return window.visualViewport.height;
+          }
+          // Fallback to innerHeight
+          return window.innerHeight || document.documentElement.clientHeight || 1000;
+        };
+        
+        const mobileHeight = getMobileViewportHeight();
+        
+        if (wrapper && slideCount > 0) {
+          const totalHeight = slideCount * mobileHeight;
+          
+          // Force wrapper height on mobile
+          wrapper.style.height = totalHeight + 'px';
+          wrapper.style.minHeight = totalHeight + 'px';
+          wrapper.style.display = 'flex';
+          wrapper.style.flexDirection = 'column';
+          
+          // Ensure all slides have proper height on mobile
+          actualSlides.forEach((slide) => {
+            slide.style.height = mobileHeight + 'px';
+            slide.style.minHeight = mobileHeight + 'px';
+            slide.style.maxHeight = mobileHeight + 'px';
+          });
+          
+          // Update Swiper with mobile dimensions
+          if (heroSwiper) {
+            heroSwiper.updateSize();
+            heroSwiper.update();
+            heroSwiper.updateSlides();
+            heroSwiper.updateSlidesClasses();
+          }
+        }
+      }, 500); // Delay to account for mobile browser UI settling
+      
+      // Also handle orientation change on mobile
+      window.addEventListener('orientationchange', function() {
+        setTimeout(() => {
+          if (heroSwiper && heroSliderEl) {
+            const wrapper = heroSliderEl.querySelector('.swiper-wrapper');
+            const actualSlides = heroSliderEl.querySelectorAll('.swiper-slide-new');
+            const slideCount = actualSlides.length || totalHeroSlides;
+            const mobileHeight = window.visualViewport?.height || window.innerHeight || 1000;
+            
+            if (wrapper && slideCount > 0) {
+              const totalHeight = slideCount * mobileHeight;
+              wrapper.style.height = totalHeight + 'px';
+              wrapper.style.minHeight = totalHeight + 'px';
+              
+              actualSlides.forEach((slide) => {
+                slide.style.height = mobileHeight + 'px';
+                slide.style.minHeight = mobileHeight + 'px';
+                slide.style.maxHeight = mobileHeight + 'px';
+              });
+              
+              heroSwiper.updateSize();
+              heroSwiper.update();
+            }
+          }
+        }, 300);
+      });
     }
   }
 

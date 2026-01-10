@@ -5,8 +5,14 @@
 .tc-latest-project {
   position: relative;
   min-height: 100vh;
-  overflow: hidden;
+  overflow: visible;
   background-color: #ffffff;
+}
+@media only screen and (max-width: 991px) {
+  .tc-latest-project {
+    overflow: visible;
+    overflow-x: hidden;
+  }
 }
 
 .tc-latest-project.section-gap {
@@ -179,6 +185,10 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .tc-latest-project {
+    overflow: visible;
+    overflow-x: hidden;
+  }
   .tc-latest-project__header {
     padding: 0 15px;
     margin-bottom: 40px;

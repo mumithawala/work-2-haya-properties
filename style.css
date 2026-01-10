@@ -93,47 +93,104 @@
 
 .swiper-new {
   width: 100%;
-  height: 100vh;
-  padding: 0 0 40px;
+  height: 100vh !important;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow: hidden !important;
+  position: relative;
+  touch-action: pan-y;
+  -webkit-overflow-scrolling: touch;
+}
+.swiper-new .swiper-wrapper {
+  display: flex !important;
+  flex-direction: column !important;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+  will-change: transform;
+  /* Let Swiper calculate height automatically - don't force it */
 }
 .swiper-slide-new {
-  display: flex;
+  display: flex !important;
   align-items: stretch;
   justify-content: center;
   padding: 0 16px;
-  height: 100%;
+  height: 100vh !important;
+  min-height: 100vh !important;
+  max-height: 100vh !important;
+  width: 100% !important;
   background: transparent;
+  box-sizing: border-box;
+  flex-shrink: 0 !important;
+  flex-grow: 0 !important;
+  transform: translate3d(0, 0, 0); /* Hardware acceleration */
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.swiper-slide-active {
+  z-index: 1;
 }
 .swiper-slide-new .tc-latest-project__item.compact {
   width: 100%;
   height: 100%;
+  max-height: 100%;
   border-radius: 36px;
+  overflow: hidden;
 }
 .swiper-slide-new .tc-latest-project__content {
   padding: 32px;
 }
+/* Mobile optimizations */
 @media only screen and (max-width: 991px) {
   .swiper-new {
-    height: 90vh;
+    height: 100dvh !important; /* Use dynamic viewport height on mobile */
+    min-height: 100dvh;
+    padding: 0;
+    overflow: hidden !important;
+    touch-action: pan-y;
+    -webkit-overflow-scrolling: touch;
+  }
+  .swiper-new .swiper-wrapper {
+    /* Ensure wrapper can grow to accommodate all slides */
+    min-height: auto !important;
   }
   .swiper-slide-new {
-    padding: 0 8px;
+    padding: 0 12px;
+    height: 100dvh !important; /* Dynamic viewport height */
+    min-height: 100dvh !important;
+    max-height: 100dvh !important;
+  }
+  .swiper-slide-new .tc-latest-project__item.compact {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
   }
 }
 @media only screen and (max-width: 767px) {
-
   .mobile-row {
     text-align: center;
   }
   .swiper-new {
-    height: 90vh;
-    padding-bottom: 24px;
+    height: 100dvh !important; /* Dynamic viewport height for mobile */
+    min-height: 100dvh;
+    padding: 0;
+    touch-action: pan-y;
+    -webkit-overflow-scrolling: touch;
+    overflow: hidden !important;
+  }
+  .swiper-new .swiper-wrapper {
+    /* Ensure wrapper can accommodate all slides */
+    min-height: auto !important;
   }
   .swiper-slide-new {
-    padding: 0;
+    padding: 0 8px;
+    height: 100dvh !important; /* Dynamic viewport height */
+    min-height: 100dvh !important;
+    max-height: 100dvh !important;
   }
   .swiper-slide-new .tc-latest-project__item.compact {
     border-radius: 24px;
+    height: 100%;
+    max-height: 100%;
   }
   .swiper-slide-new .tc-latest-project__content {
     padding: 20px;
