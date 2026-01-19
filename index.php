@@ -161,7 +161,7 @@
             <main>
                 <section class="hero-section">
                     <video autoplay muted loop playsinline class="hero-video">
-                        <source src="assets/videos/v7.mp4" type="video/mp4" />
+                        <source src="assets/videos/haya-v.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
 

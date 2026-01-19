@@ -64,7 +64,7 @@
                                             </div>
                                             <div class="mb-2">
                                             <h4 class="tc-footer__widget-title mb-0">Phone</h4>
-                                            <p class="tc-footer__widget-text">7861051039</p>
+                                            <p class="tc-footer__widget-text">+91 7861051039</p>
                                             </div>
                                             <div class="mb-2">
                                                 <h4 class="tc-footer__widget-title mb-0">Address</h4>
