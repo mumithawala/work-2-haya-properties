@@ -51,6 +51,7 @@
                                             <ul class="tc-footer__widget-links">
                                                 <li><a href="palm-haya.php">Palm Haya</a></li>
                                                 <li><a href="harmony.php">Harmony</a></li>
+                                                <li><a href="" target="_blank">Haya DreamS</a></li>
                                             </ul>
                                         </div>
                                     </div>

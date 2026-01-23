@@ -47,7 +47,7 @@
                               <ul class="sub-menu">
                                   <li><a href="palm-haya.php">Palm Haya</a></li>
                                   <li><a href="harmony.php">Harmony</a></li>
-                                  
+                                  <li><a href="">Haya DreamS</a></li>
                               </ul>
                           </li>
 

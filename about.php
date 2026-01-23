@@ -255,7 +255,7 @@
                                     </a>
 
                                     <div class="tc-video-btn__info">
-                                        <h5>Hear from Abdul Razak</h5>
+                                        <h5>Hear from Pathan AbdulRazak</h5>
                                         <p>Founder of Haya Properties</p>
                                     </div>
                                 </div>
